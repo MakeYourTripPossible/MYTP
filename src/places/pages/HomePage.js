@@ -20,7 +20,7 @@ const HomePage = (props) => {
       : allPlaces.filter((place) => place.to === tripTitle)[0];
 
   let bgcStyle = {
-    backgroundImage: `linear-gradient( to top, rgba(0, 0, 0, 0.7) 15%, rgba(0, 0, 0, 0) 30% ), url('${data.bannerUrl}')`,
+    backgroundImage: `linear-gradient( to top, rgba(0, 0, 0, 0.7) 15%, rgba(0, 0, 0, 0.5) 30% ), url('${data.bannerUrl}')`,
     zIndex: 1,
     width: "100%",
     height: "auto",
