@@ -5,7 +5,9 @@ const Cards = (props) => {
   if (props.PriceCatagory) {
     return (
       <div className="container mt-5 heading-style">
-        <h2 className="text-center">{props.PackageGroup}</h2>
+        <h2 className="text-center heading-bottom-line">
+          {props.PackageGroup}
+        </h2>
         <div className="container-fluid my-5">
           <div className="row">
             {props.cards.map((card) => (
@@ -41,7 +43,9 @@ const Cards = (props) => {
   if (props.DetailCatagory) {
     return (
       <div className="container mt-5 heading-style">
-        <h2 className="text-center">{props.PackageGroup}</h2>
+        <h2 className="text-center heading-bottom-line">
+          {props.PackageGroup}
+        </h2>
         <div className="container my-5">
           <div className="row">
             {props.cards.map((card) => (

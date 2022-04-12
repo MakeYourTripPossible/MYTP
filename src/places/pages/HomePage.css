@@ -10,11 +10,11 @@ section {
   padding: 3px 0px !important;
 }
 
-@media (min-width: 576px) and (max-width: 1400px) {
+/* @media (min-width: 576px) and (max-width: 1400px) {
   .weekend-details .trip-content {
     padding-right: 5rem !important;
     padding-left: 5rem !important;
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
   }
-}
+} */

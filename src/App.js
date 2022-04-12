@@ -20,7 +20,7 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   let routes = (
     <Switch>
-      <Route path="/" exact render={(props) => <HomePage />} />
+      <Route path="/" exact render={(props) => <HomePage {...props} />} />
       <Route
         path="/trip/:tripTitle"
         exact

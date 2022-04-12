@@ -3,13 +3,21 @@ import SearchBanner from "./SearchBanner";
 import TitleBanner from "./TitleBanner";
 
 const MainBanner = (props) => {
+  let bgcStyle = {
+    backgroundImage: `linear-gradient( to top, rgba(0, 0, 0, 0.7) 15%, rgba(0, 0, 0, 0.1) 30% ), url('${props.url}')`,
+    zIndex: 1,
+    width: "100%",
+    height: "auto",
+  };
   return (
     <header
-      className={props.path === "/" ? "main-content" : "main-content inner"}
+      className={
+        props.location.pathname === "/" ? "main-content" : "main-content inner"
+      }
       id="home"
-      style={props.style}
+      style={bgcStyle}
     >
-      {props.path === "/" ? (
+      {props.location.pathname === "/" ? (
         <SearchBanner />
       ) : (
         <TitleBanner {...props} title={props.title} />

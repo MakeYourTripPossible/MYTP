@@ -142,16 +142,6 @@ a.login-button-2 {
 
 /* CSS Document */
 
-header {
-  z-index: 9;
-  width: 100%;
-  min-width: 4em;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: fixed;
-  /* border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px; */
-}
-
 .border-radius-class {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -478,12 +468,12 @@ a.contact:hover {
 
 .main-content.inner {
   /* background: url(./Images/banner-top.jpg) no-repeat; */
+  background-position: center 100%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  /* min-height: 16em; */
   min-height: 400px;
   position: relative;
 }

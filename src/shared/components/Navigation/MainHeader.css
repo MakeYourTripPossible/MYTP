@@ -1,0 +1,8 @@
+header {
+  z-index: 9;
+  width: 100%;
+  min-width: 4em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border-bottoms-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+}

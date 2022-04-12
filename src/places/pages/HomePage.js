@@ -3,10 +3,15 @@ import { useParams } from "react-router-dom";
 import { dataContext } from "../../shared/context/data-context";
 import MainBanner from "../../shared/components/Banner/Mainbanner";
 import Cards from "../../shared/components/UIElements/Cards";
-import "./HomePage.css";
-import TripIcon from "../components/TripIcon";
 import TripSection from "../../shared/components/UIElements/TripSection";
 import Contact from "../../shared/components/UIElements/Contact";
+import Testimonials from "./Testimonials";
+import ListPoints from "../components/ListPoints";
+import TripIcon from "../components/TripIcon";
+import testimonial from "../../data/testimonial.json";
+import whyus from "../../data/why-us.json";
+import "./HomePage.css";
+import CommonSection from "../../shared/components/UIElements/CommonSection";
 const HomePage = (props) => {
   let { tripTitle } = useParams();
   const { allPlaces } = useContext(dataContext);
@@ -19,19 +24,13 @@ const HomePage = (props) => {
         }
       : allPlaces.filter((place) => place.to === tripTitle)[0];
 
-  let bgcStyle = {
-    backgroundImage: `linear-gradient( to top, rgba(0, 0, 0, 0.7) 15%, rgba(0, 0, 0, 0.5) 30% ), url('${data.bannerUrl}')`,
-    zIndex: 1,
-    width: "100%",
-    height: "auto",
-  };
   return (
     <>
       <MainBanner
         DetailTrip
-        path={data.to.toLowerCase()}
+        {...props}
+        url={data.bannerUrl}
         title={data.heading}
-        style={bgcStyle}
       />
       {tripTitle === undefined && (
         <Cards
@@ -54,6 +53,18 @@ const HomePage = (props) => {
             </div>
           </div>
         </div>
+      )}
+      {props.location.pathname === "/" && (
+        <CommonSection heading="Why Us">
+          <div className="feature-grids row text-center">
+            <ListPoints data={whyus} />
+          </div>
+        </CommonSection>
+      )}
+      {props.location.pathname === "/" && (
+        <CommonSection heading="Testimonials">
+          <Testimonials data={testimonial} />
+        </CommonSection>
       )}
     </>
   );

@@ -48,6 +48,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.heading-bottom-line {
+  position: relative;
+  padding-bottom: 10px;
+}
+.heading-bottom-line::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: var(--theme-color);
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.heading-bottom-line::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: var(--border-line);
+  bottom: 0;
+  left: calc(50% - 20px);
+}
 @media (max-width: 991px) {
   .logo-name {
     display: none;
@@ -83,7 +107,6 @@ code {
 .heading-style h2 {
   font-size: 40px;
   font-weight: 900;
-  padding-bottom: 0;
   color: #000;
 }
 .form-group label i {
