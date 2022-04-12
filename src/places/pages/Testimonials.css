@@ -102,7 +102,7 @@
   .carousel-root {
     outline: 0;
     width: 93% !important;
-    margin: auto !important;
+    margin: 20px auto auto auto !important;
   }
 
   .carousel.carousel-slider .control-arrow {
