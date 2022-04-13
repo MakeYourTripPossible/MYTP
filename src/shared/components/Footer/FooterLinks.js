@@ -3,6 +3,8 @@ import important_links from "../../../data/important-links.json";
 import Trip_Widget from "../../../data/trip-widget.json";
 import latest_blogs from "../../../data/latest-blogs.json";
 import { dataContext } from "../../context/data-context";
+import { Link } from "react-router-dom";
+import { AtTheTop } from "../../utils/HelperMethod";
 const FooterLinks = (props) => {
   const { allPlaces, contacts } = useContext(dataContext);
   if (props.ImpLinks) {
@@ -67,26 +69,42 @@ const FooterLinks = (props) => {
       <div className="kilimanjaro_part m-top-15">
         <h5>{props.Title}</h5>
         <ul className="kilimanjaro_social_links">
-          <li>
-            <a href={contacts.cl_facebook}>
-              <i className="fab fa-facebook" aria-hidden="true"></i> Facebook
-            </a>
-          </li>
-          <li>
-            <a href={contacts.cl_twitter}>
-              <i className="fab fa-twitter" aria-hidden="true"></i> Twitter
-            </a>
-          </li>
-          <li>
-            <a href={contacts.cl_youtube}>
-              <i className="fab fa-youtube" aria-hidden="true"></i> YouTube
-            </a>
-          </li>
-          <li>
-            <a href={contacts.cl_linkedin}>
-              <i className="fab fa-linkedin" aria-hidden="true"></i> Linkedin
-            </a>
-          </li>
+          {contacts.cl_facebook !== "/" && (
+            <li>
+              <a href={contacts.cl_facebook}>
+                <i className="fab fa-facebook" aria-hidden="true"></i> Facebook
+              </a>
+            </li>
+          )}
+          {contacts.cl_twitter !== "/" && (
+            <li>
+              <a href={contacts.cl_twitter}>
+                <i className="fab fa-twitter" aria-hidden="true"></i> Twitter
+              </a>
+            </li>
+          )}
+          {contacts.cl_youtube !== "/" && (
+            <li>
+              <a href={contacts.cl_youtube}>
+                <i className="fab fa-youtube" aria-hidden="true"></i> YouTube
+              </a>
+            </li>
+          )}
+          {contacts.cl_linkedin !== "/" && (
+            <li>
+              <a href={contacts.cl_linkedin}>
+                <i className="fab fa-linkedin" aria-hidden="true"></i> Linkedin
+              </a>
+            </li>
+          )}
+          {contacts.cl_instagram !== "/" && (
+            <li>
+              <a href={contacts.cl_instagram}>
+                <i className="fab fa-instagram" aria-hidden="true"></i>{" "}
+                Instagram
+              </a>
+            </li>
+          )}
         </ul>
       </div>
     );
@@ -159,7 +177,9 @@ const FooterLinks = (props) => {
             .filter((place) => place.topWeekendTrip)
             .map((place, i) => (
               <span key={"latest-trip" + i} className="kilimanjaro_works_img">
-                <img src={place.img} alt="" />
+                <Link to={"/trip/" + place.to} onClick={() => AtTheTop()}>
+                  <img src={place.img} alt="" />
+                </Link>
               </span>
             ))}
         </div>

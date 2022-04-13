@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { AtTheTop, Capitalization } from "../../utils/HelperMethod";
 import "./Cards.css";
 const Cards = (props) => {
-  if (props.PriceCatagory) {
+  if (props.TagCatagory) {
     return (
       <div className="container mt-5 heading-style">
         <h2 className="text-center heading-bottom-line">
@@ -11,16 +12,22 @@ const Cards = (props) => {
         <div className="container-fluid my-5">
           <div className="row">
             {props.cards.map((card) => (
-              <div key={card.id + "-price"} className="col">
-                <Link to={card.to}>
+              <div
+                key={card.id + "-price"}
+                className="col-sm-12 col-md-6 col-lg-3 my-3"
+              >
+                <Link
+                  to={"/category/" + card.toCategory}
+                  onClick={() => AtTheTop()}
+                >
                   <div className="img-card">
                     <img
-                      src={card.img}
+                      src={card.categoryImg}
                       alt={card.alt}
                       className="img-card-item img-card-item-hover"
                     />
                     <h4 className="card-label">
-                      <span>{card.label} </span>
+                      <span>{Capitalization(card.label)} </span>
                     </h4>
                     <div className="caption">
                       <p className="caption-text">
@@ -54,7 +61,7 @@ const Cards = (props) => {
                 className="col-lg-4 col-md-6 col-sm-12 px-3"
               >
                 <div className="img-detail-card">
-                  <Link to={"/trip/" + card.to}>
+                  <Link to={"/trip/" + card.to} onClick={() => AtTheTop()}>
                     <img
                       src={card.img}
                       alt={card.alt}

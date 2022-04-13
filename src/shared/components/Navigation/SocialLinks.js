@@ -29,7 +29,7 @@ const SocialLinks = (props) => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="fab fa-facebook-f"></span>
+                    <span className="fab fa-facebook-f" />
                   </a>
                 </li>
               )}
@@ -40,7 +40,7 @@ const SocialLinks = (props) => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="fab fa-twitter"></span>
+                    <span className="fab fa-twitter" />
                   </a>
                 </li>
               )}
@@ -51,7 +51,7 @@ const SocialLinks = (props) => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="fab fa-linkedin-in"></span>
+                    <span className="fab fa-linkedin-in" />
                   </a>
                 </li>
               )}
@@ -62,7 +62,18 @@ const SocialLinks = (props) => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="fab fa-instagram"></span>
+                    <span className="fab fa-instagram" />
+                  </a>
+                </li>
+              )}
+              {contacts.cl_youtube !== "/" && (
+                <li>
+                  <a
+                    href={contacts.cl_youtube}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="fab fa-youtube" />
                   </a>
                 </li>
               )}

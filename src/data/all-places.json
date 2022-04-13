@@ -3,12 +3,15 @@
     "id": 1,
     "img": "/img/MakeYourTripPossible_JIBHI.jpeg",
     "bannerUrl": "/img/MakeYourTripPossible_JIBHI_Banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_honeymoon_category.jpg",
+    "categoryBannerImg": "/img/MakeYourTripPossible_honeymoon_category_banner.jpg",
     "topWeekendTrip": true,
     "topCategoryTrip": true,
     "to": "Jibhi-Himachal-Pradesh",
+    "toCategory": "honeymoon-trips",
     "title": "Silicon",
     "price": 9999,
-    "label": "leh-ladhak",
+    "label": "honeymoon trip",
     "day": 4,
     "night": 3,
     "heading": "Jibhi, Himachal Pradesh",
@@ -78,12 +81,15 @@
     "id": 2,
     "img": "/img/MakeYourTripPossible_KASOL.jpg",
     "bannerUrl": "/img/MakeyourTripPossible_KASOL_Banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.jpg",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.jpg",
     "topWeekendTrip": true,
     "topCategoryTrip": true,
     "to": "Kasol-Himachal-Pradesh",
+    "toCategory": "weekend-trips",
     "title": "Silicon",
     "price": 19999,
-    "label": "leh-ladhak",
+    "label": "weekend trip",
     "day": 1,
     "night": 2,
     "heading": "Kasol, Himachal Pradesh",
@@ -140,12 +146,15 @@
     "id": 3,
     "img": "/img/MakeYourTripPossible_Kashmir.jpg",
     "bannerUrl": "/img/MakeYourTripPossible_kashmir_Banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
+    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "topWeekendTrip": true,
     "topCategoryTrip": true,
     "to": "Kashmir-Jammu",
+    "toCategory": "group-trips",
     "title": "Silicon",
     "price": 16999,
-    "label": "leh-ladhak",
+    "label": "group trip",
     "day": 5,
     "night": 6,
     "heading": "Kashmir, Jammu",
@@ -229,12 +238,91 @@
     "id": 4,
     "img": "/img/MakeYourTripPossible_Manali.jpg",
     "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.jpg",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.jpg",
+    "topWeekendTrip": false,
+    "topCategoryTrip": true,
+    "to": "Manali-Sissu-Jispa-Rothang",
+    "toCategory": "solo-trip",
+    "title": "Silicon",
+    "price": 16999,
+    "label": "solo trip",
+    "day": 5,
+    "night": 6,
+    "heading": "Manali, Sissu, Jispa, Rothang",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "In a lifetime, we all want to have been a Manali once either with friends or with family. Manali is the most liked honeymoon and holiday destination for couples and solo trips. At the end of Kullu valley, near the Beas river, this beautiful city is located. <br/> <br/> It is also a pass to Leh-Ladakh through various mountain passes at a height of 13000 feet making it a natural way to Ladakh, these passes include Rohtang La pass, Baralacha La pass, and Nakee La pass.<br/> <br/> Lakes, grassland, a forest of deodar, a waterfall, a garden and other picturesque sites make this destination more attractive to visitors.<br/> <br/> Adventure and sports like Paragliding, Rafting, Zorbing, Trekking, and Skiing are the prominent activities of this place.<br/> <br/> Hadimba temple, Manikarn Gurudwara, Gompa Buddhist temple, and many more, the Religious and spiritual presence make this place more divine for visitors of different religions.",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI TO MANALI",
+            "brief": ["We depart from Delhi around 6 PM in an AC Vehicle."]
+          },
+          {
+            "day": "Day 1",
+            "title": "MANALI EXPLORATION",
+            "brief": [
+              "Reach Manali by morning. Check in to the hotel, freshen up & have breakfast.",
+              "After relaxing, opt for local sightseeing.",
+              "In the Evening, Drive towards the magical street of Old Manali for Cafe Hopping.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "SLONG VALLEY EXCURSION",
+            "brief": [
+              "Wake up with the beautiful site in front of your eyes",
+              "Have a delicious breakfast at the hotel",
+              "Then drive toward Solang valley to experience snow activities like skiing, Zorbing, ATV rides, etc.",
+              "Later come back to the hotel and enjoy dinner with a bonfire and music",
+              "Overnight stay in Manali"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "MANALI- KASOL- MANIKARAN- DELHI",
+            "brief": [
+              "Enjoy your time near the river bed, have breakfast by 11 am",
+              "Head towards Kasol and Manikaran",
+              "After that head back to Delhi with never-ending memories"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Accommodation for 2 nights in a hotel in Manali",
+          "4 meals will be provided throughout the trip. 1 meal on Day 1 (Breakfast) + 2 meals on Day 2 (Breakfast + Dinner) + 2 meals on Day 3 (Breakfast )",
+          "AC Transportation.",
+          "Local and Solang valley Sightseeing as mentioned in the itinerary.",
+          "Guide while Trekking."
+        ],
+        "exclusion": [
+          "Any personal Expenses / Adventure activities",
+          "Anything not mentioned in the itinerary",
+          "Any kind of entry tickets/fees",
+          "Any Meals / Drinks other than Inclusion",
+          "5%GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "/img/MakeYourTripPossible_Manali.jpg",
+    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.jpg",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.jpg",
     "topWeekendTrip": false,
     "topCategoryTrip": false,
     "to": "Manali-Sissu-Jispa-Rothang",
+    "toCategory": "international-trip",
     "title": "Silicon",
     "price": 16999,
-    "label": "leh-ladhak",
+    "label": "international trip",
     "day": 5,
     "night": 6,
     "heading": "Manali, Sissu, Jispa, Rothang",

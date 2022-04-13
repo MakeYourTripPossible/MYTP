@@ -14,11 +14,14 @@
 }
 .mytp-rating {
   position: absolute;
-  top: 55%;
+  top: 65%;
   width: 60%;
   margin: 0 auto;
   left: 0;
   right: 0;
+}
+.mytp-rating img {
+  width: 20%;
 }
 @media (min-width: 200px) and (max-width: 700px) {
   .mytp-rating img {

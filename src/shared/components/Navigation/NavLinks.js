@@ -30,25 +30,33 @@ const NavLinks = ({ logo }) => {
       <input type="checkbox" id="drop" />
       <ul className="menu mt-2 border-radius-class">
         <li className="active">
-          <Link to="/">&nbsp;Home</Link>
+          <Link to="/">
+            <span className="fad fa-home" aria-hidden="true" />
+            &nbsp;Home
+          </Link>
         </li>
         <li>
-          <Link to="/parent-trip">&nbsp;Parent Trip</Link>
+          <Link to="/category/international-trip">
+            <span className="fad fa-globe" aria-hidden="true" />
+            &nbsp;International
+          </Link>
         </li>
         <li>
-          <Link to="/international">&nbsp;International</Link>
-        </li>
-        <li>
-          <Link to="/blogs">&nbsp;Blogs</Link>
+          <Link to="/blogs">
+            <span className="fad fa-blog" aria-hidden="true" />
+            &nbsp;Blogs
+          </Link>
         </li>
         <li className="dropdown">
           <label htmlFor="drop-2" className="toggle text-light">
-            Awaited Trips
-            <span className="fad fa-angle-down" aria-hidden="true"></span>
+            <span className="fad fa-map-marker-question" aria-hidden="true" />
+            &nbsp;Awaited Trips
+            <span className="fad fa-angle-down" aria-hidden="true" />
           </label>
           <Link to="/awated-trips">
-            Awaited Trips
-            <span className="fad fa-angle-down" aria-hidden="true"></span>
+            <span className="fad fa-map-marker-question" aria-hidden="true" />
+            &nbsp;Awaited Trips
+            <span className="fad fa-angle-down" aria-hidden="true" />
           </Link>
           <input type="checkbox" id="drop-2" />
           {/* Awaited Trips lists */}

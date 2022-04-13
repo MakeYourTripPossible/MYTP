@@ -1,8 +1,10 @@
 [
-  { "id": "imp1", "link": "/", "title": "Terms & Conditions" },
-  { "id": "imp2", "link": "/", "title": "About Licences" },
-  { "id": "imp3", "link": "/", "title": "Help & Support" },
-  { "id": "imp4", "link": "/", "title": "Careers" },
-  { "id": "imp5", "link": "/", "title": "Privacy Policy" },
-  { "id": "imp6", "link": "/", "title": "Community & Forum" }
+  {
+    "id": "imp1",
+    "link": "/terms-and-condition",
+    "title": "Terms & Conditions"
+  },
+  { "id": "imp3", "link": "/help-&-support", "title": "Help & Support" },
+  { "id": "imp5", "link": "/privacy-policy", "title": "Privacy Policy" },
+  { "id": "imp6", "link": "/community", "title": "Community & Forum" }
 ]

@@ -10,6 +10,18 @@ section {
   padding: 3px 0px !important;
 }
 
+.intro-para {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+@media (min-width: 200px) and (max-width: 991px) {
+  .intro-para {
+    width: 100%;
+  }
+}
+
 /* @media (min-width: 576px) and (max-width: 1400px) {
   .weekend-details .trip-content {
     padding-right: 5rem !important;

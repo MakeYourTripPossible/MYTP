@@ -20,3 +20,20 @@ export function WindowPosition() {
   }, []);
   return scrollPosition;
 }
+
+export function Capitalization(str) {
+  const arr = str.split(" ");
+  for (var i = 0; i < arr.length; i++) {
+    arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1).toLowerCase();
+  }
+
+  return arr.join(" ");
+}
+
+export function AtTheTop() {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+}

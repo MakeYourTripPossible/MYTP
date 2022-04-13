@@ -11,8 +11,8 @@
   },
   {
     "id": 2,
-    "title": "Your Blog Title Goes Here",
-    "description": "It includes rich features & contents. It's designed & developed based on One Page/ Multi-page Layout,blog themes,world press themes and blogspot. You can use any layout from any demo anywhere.",
+    "title": "Delhi",
+    "description": "The incredible Delhi is the capital of Incredible India. It is a massive metropolitan area of North India. It serves you everything from a good education to a bundle of oppurtunities. It consist of some of the most beautiful and captivating tourist places in and near the city. Famously known as <b>Dilwale Dilli</b>, Delhi has something for everyone. You can enjoy a comfortable stay in a great hotel and can explore the famous historical Red Fort to the happening Dilli Haat. <br/> <br/>You get an innumerable options to explore in the city which is open for people from all spheres of life. <br/> <br/>Certainly, without fail Delhi Tourism is one of the most attractive spot for both Indians and those across the world. .",
     "postDate": "August 25, 2021",
     "img": "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?size=626&ext=jpg&uid=R18458583",
     "alt": "Make Your Trip Possible",
@@ -24,16 +24,16 @@
     "title": "Uttar Pradesh",
     "description": "Uttar Pradesh is also known as the <b>Heartland of India</b>. It is rich in cultural heritage and offers great scenic views. You can explore both nature and history here. Surrounded by the ranges of the famous Ganga and the Yamuna, it showcases few of the best man made monuments. Back in limelight a few days ago owing to the Bhoomi Poojan ceremony of the Ram Mandir in Ayodhya, it is going to be one of the biggest draws for pilgrims, adding a feather in the hat of Uttar Pradesh tourism. ",
     "postDate": "November 13, 2021",
-    "img": "https://blogger.googleusercontent.com/img/a/AVvXsEiIilfwaNy11yndrao6UkKOTDpydO4deYy4loqZS4yERmrucbxS8uZ2oUOoVnzBjoziv_Ku8eFvmoUaDHSmHXbwUo-pRpw3UPyMIQpdF9M_wbwrJCDIFymdDKt4kdbH5tny6IjqAxS0wFTaT7YYooURIJ83t9qF6bJyjPv1UQ0apOKqIvWHywoaHyxJ",
+    "img": "https://img.freepik.com/free-photo/western-woman-boat-exploring-river-ganges_53876-65345.jpg?size=626&ext=jpg&uid=R18458583",
     "alt": "Make Your Trip Possible",
     "links": "https://setupwithprachi.blogspot.com/2021/11/tourist-attractions-of-uttar-pradesh.html",
     "isPopular": true
   },
   {
     "id": 4,
-    "title": "Your Blog Title Goes Here",
-    "description": "It includes rich features & contents. It's designed & developed based on One Page/ Multi-page Layout,blog themes,world press themes and blogspot. You can use any layout from any demo anywhere.",
-    "postDate": "21 Jan 2018",
+    "title": "Kerla",
+    "description": "Kerala is named as one of the ten paradises of the world by National Geographic Traveler. It is blessed with the gorgeous backwaters and ecotourism initiatives. Kerala is said to be crafted by the hand of Gods and is one of the most beautiful places in the world. From the lush green stations on the western ghats to scenic shores by the Arabian Sea, backwaters to the wildlife sanctuaries, the lush tea gardens, waterfalls and Ayurvedic resorts to soothe you, kerala has it all.",
+    "postDate": "September 06, 2021",
     "img": "https://1.bp.blogspot.com/-Ux3V11PCuFM/YTdEqqP6HiI/AAAAAAAAMzc/bF_XKwf6beY9dLnA-NQ9M08uMa4Q0-iJwCPcBGAsYHg/s0/1631009331077.jpeg",
     "alt": "Make Your Trip Possible",
     "links": "/",
@@ -50,21 +50,11 @@
     "isPopular": true
   },
   {
-    "id": 6,
-    "title": "Your Blog Title Goes Here",
-    "description": "It includes rich features & contents. It's designed & developed based on One Page/ Multi-page Layout,blog themes,world press themes and blogspot. You can use any layout from any demo anywhere.",
-    "postDate": "21 Jan 2018",
-    "img": "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?size=626&ext=jpg&uid=R18458583",
-    "alt": "Make Your Trip Possible",
-    "links": "/",
-    "isPopular": false
-  },
-  {
     "id": 7,
-    "title": "Your Blog Title Goes Here",
-    "description": "It includes rich features & contents. It's designed & developed based on One Page/ Multi-page Layout,blog themes,world press themes and blogspot. You can use any layout from any demo anywhere.",
-    "postDate": "21 Jan 2018",
-    "img": "https://3.bp.blogspot.com/--C1wpaf_S4M/W7V__10nRoI/AAAAAAAAK24/1NSfapuYSIY0f0wzXY9NgoH0FjQLT07YACKgBGAs/s1600/maxresdefault.jpg",
+    "title": "Punjab",
+    "description": "Punjab is situated in the north western part of India and is famously called 'The land of five rivers'. Punjab is famous in every aspects and is the key state of the country since it has rich fertile lands and the most ancient civilizations in the world. Punjab has also seen many religious movements and is famous for its religious diversity. From scenic landscape to authentic food, it offers you so much. You see the most beautiful farming here which will take you closer to nature.",
+    "postDate": "September 22, 2021",
+    "img": "https://img.freepik.com/free-photo/bangla-sahib-gurudwara-religious-place-sikhs_181020-2635.jpg?size=626&ext=jpg&uid=R18458583",
     "alt": "Make Your Trip Possible",
     "links": "/",
     "isPopular": false

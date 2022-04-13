@@ -1,57 +1,110 @@
-// import React, { useContext, useEffect, useState } from "react";
-// import { dataContext } from "./../../shared/context/data-context";
-// import Cards from "../../shared/components/UIElements/Cards";
-// import Contact from "../../shared/components/UIElements/Contact";
-// import TripSection from "../../shared/components/UIElements/TripSection";
-// import TripIcon from "../components/TripIcon";
-// import PlaceBanner from "./../components/PlaceBanner";
-// import { useParams } from "react-router-dom";
-// const Places = (props) => {
-//   const tripTitle = useParams().tripTitle;
-//   const { allPlaces: data } = useContext(dataContext);
-//   // const [trip, setTrip] = useState({});
-//   // useEffect(() => {
-//   //   setTrip(data.filter((e) => e.to === tripTitle)[0]); // for [{}] => {}
-//   // }, [tripTitle]);
-//   // console.log(tripTitle);
+import React, { useContext } from "react";
+import { useParams } from "react-router-dom";
+import { dataContext } from "../../shared/context/data-context";
+import MainBanner from "../../shared/components/Banner/Mainbanner";
+import Cards from "../../shared/components/UIElements/Cards";
+import TripSection from "../../shared/components/UIElements/TripSection";
+import Contact from "../../shared/components/UIElements/Contact";
+import Testimonials from "./Testimonials";
+import ListPoints from "../components/ListPoints";
+import TripIcon from "../components/TripIcon";
+import CommonSection from "../../shared/components/UIElements/CommonSection";
+import { Capitalization, RemoveDash } from "../../shared/utils/HelperMethod";
+import Blogs from "./../../shared/components/UIElements/Blogs";
+import blogs from "../../data/latest-blogs.json";
+import testimonial from "../../data/testimonial.json";
+import whyus from "../../data/why-us.json";
+import "./Places.css";
+const Places = (props) => {
+  const { pathname } = props.location;
+  let { tripTitle } = useParams();
+  let { categoryTitle } = useParams();
+  const { allPlaces } = useContext(dataContext);
+  let bgUrl =
+    categoryTitle === undefined
+      ? pathname === "/blogs"
+        ? "/img/MakeYourTripPossible_blogs.jpg"
+        : "/img/MakeYourTripPossible_Mainbanner.jpg"
+      : allPlaces.filter((data) => data.toCategory === categoryTitle)[0]
+          .categoryBannerImg;
+  let defaultValue = {
+    bannerUrl: bgUrl,
+    to: "/",
+    heading: pathname === "/blogs" ? "Blogs" : "",
+  };
+  let data =
+    tripTitle === undefined
+      ? defaultValue
+      : allPlaces.filter((place) => place.to === tripTitle)[0];
+  let categoryTrpTitle =
+    categoryTitle !== undefined
+      ? Capitalization(RemoveDash(categoryTitle))
+      : "Popular Trips";
+  return (
+    <>
+      <MainBanner
+        DetailTrip
+        {...props}
+        url={data.bannerUrl}
+        title={categoryTitle === undefined ? data.heading : categoryTrpTitle}
+      />
+      {tripTitle === undefined &&
+        (categoryTitle === undefined || pathname === "/") &&
+        pathname !== "/blogs" && (
+          <Cards
+            TagCatagory
+            PackageGroup={"Category"}
+            cards={allPlaces.filter((card) => card.topCategoryTrip)}
+          />
+        )}
+      {tripTitle === undefined &&
+        (categoryTitle !== undefined || pathname === "/") && (
+          <Cards
+            DetailCatagory
+            PackageGroup={categoryTrpTitle}
+            cards={allPlaces.filter((card) =>
+              categoryTitle !== undefined
+                ? card.toCategory === categoryTitle
+                : card.topWeekendTrip === true
+            )}
+          />
+        )}
+      {tripTitle !== undefined && pathname !== "/" && (
+        <div className="weekend-details">
+          <div className="container trip-content">
+            <div className="row">
+              <div className="col-sm-12 col-md-9 col-lg-9">
+                <TripIcon trip={data} />
+                <TripSection title="Description" trip={data} />
+              </div>
+              <div className="col-sm-12 col-md-3 col-lg-3">
+                <Contact price={data.price} destination={data.to} />
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      {pathname === "/" && (
+        <CommonSection heading="Why Us">
+          <p className="intro-para">
+            Have you gotten tired of your normal daily routine? And want to
+            refresh your mind and soul? So, We are here to help you, to make
+            your plan a reality. We offer you the most affordable package for
+            your dream destination.
+          </p>
+          <div className="feature-grids row text-center">
+            <ListPoints data={whyus} />
+          </div>
+        </CommonSection>
+      )}
+      {pathname === "/" && (
+        <CommonSection heading="Testimonials">
+          <Testimonials data={testimonial} />
+        </CommonSection>
+      )}
+      {pathname === "/blogs" && <Blogs data={blogs} />}
+    </>
+  );
+};
 
-//   return (
-//     <>
-//       {/* <PlaceBanner
-//         url={trip.bannerUrl}
-//         path={trip.to}
-//         title={trip.heading}
-//         {...props}
-//       /> */}
-//       <div className="container mt-5 heading-style">
-//         <h2 className="text-center">Catagory</h2>
-//         <Cards
-//           PriceCatagory
-//           cards={data.filter((card) => card.topCategoryTrip)}
-//         />
-//       </div>
-//       <div className="container mt-5 heading-style">
-//         <h2 className="text-center">Weekend Trip</h2>
-//         <Cards
-//           DetailCatagory
-//           cards={data.filter((card) => card.topWeekendTrip)}
-//         />
-//       </div>
-//       {/* <div className="weekend-details">
-//         <div className="container trip-content">
-//           <div className="row">
-//             <div className="col-sm-12 col-md-9 col-lg-9">
-//               <TripIcon trip={trip} />
-//               <TripSection title="Description" trip={trip} />
-//             </div>
-//             <div className="col-sm-12 col-md-3 col-lg-3">
-//               <Contact price={trip.price} destination={trip.to} />
-//             </div>
-//           </div>
-//         </div>
-//       </div> */}
-//     </>
-//   );
-// };
-
-// export default Places;
+export default Places;

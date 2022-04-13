@@ -93,6 +93,10 @@ ul {
   color: #3b5998;
 }
 
+.top-right-info li span.fa-youtube {
+  color: #ff0000;
+}
+
 .top-right-info li span.fa-twitter {
   color: #1da1f2;
 }
