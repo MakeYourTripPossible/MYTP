@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Blogs.css";
+import { Link } from "react-router-dom";
+import { ToLink } from "./../../utils/HelperMethod";
 const Blogs = (props) => {
   return (
     <>
@@ -11,7 +12,7 @@ const Blogs = (props) => {
               <div className="row">
                 {props.data.map((blog, i) => (
                   <div key={("travel-blog", i)} className="col-lg-12">
-                    <Link to={blog.links}>
+                    <Link to={"/blogs/" + ToLink(blog.title)}>
                       <div className="blog-item">
                         <div className="row">
                           <div className="col-md-6">

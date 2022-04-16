@@ -65,7 +65,7 @@ const Places = (props) => {
             cards={allPlaces.filter((card) =>
               categoryTitle !== undefined
                 ? card.toCategory === categoryTitle
-                : card.topWeekendTrip === true
+                : card.popularTrip
             )}
           />
         )}

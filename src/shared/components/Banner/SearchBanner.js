@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import "./SearchBanner.css";
 import { dataContext } from "./../../context/data-context";
 import { Link } from "react-router-dom";
+import { Capitalization } from "./../../utils/HelperMethod";
 const SearchBanner = (props) => {
   const { allPlaces: searchData } = useContext(dataContext);
   const [search, setSearch] = useState("");
@@ -46,7 +47,9 @@ const SearchBanner = (props) => {
                       className="container search-data-box"
                     >
                       <Link to={"/trip/" + data.to}>
-                        <li>{data.heading}</li>
+                        <li>
+                          {data.heading + " " + Capitalization(data.label)}
+                        </li>
                       </Link>
                     </div>
                   ))}

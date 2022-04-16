@@ -115,14 +115,13 @@ const FooterLinks = (props) => {
       <div className="kilimanjaro_part">
         <h5>About Us</h5>
         <p>
-          <b>Makeyourtrippossible</b> is an Indian online travel industry
-          founded by Shubham Maheshwari. MYTP provide their travellers a
-          convenient way to arrange their stay from the comfort of their home.
-          <br />
-          <br />
-          With <b>Makeyourtrippossible</b> you book your choices instantly with
-          just a few clicks.In MYTP we assure you a wonderful ambience
-          throughout your journey
+          <b>Makeyourtrippossible</b> is a Delhi-based traveling company. We are
+          a team of experienced and passionate travelers. Our budget trip
+          package is pocket-friendly and services all over India, with
+          first-class lodging and convenience. <br /> <br />
+          Explore various Holiday packages and blogs of your dream destination
+          on our website. We always love providing appropriate information and
+          the value of our client's time.
         </p>
       </div>
     );
@@ -174,7 +173,7 @@ const FooterLinks = (props) => {
         <h5>{props.Title}</h5>
         <div className="kilimanjaro_works">
           {allPlaces
-            .filter((place) => place.topWeekendTrip)
+            .filter((place) => place.popularTrip)
             .map((place, i) => (
               <span key={"latest-trip" + i} className="kilimanjaro_works_img">
                 <Link to={"/trip/" + place.to} onClick={() => AtTheTop()}>

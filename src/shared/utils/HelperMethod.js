@@ -37,3 +37,7 @@ export function AtTheTop() {
     behavior: "smooth",
   });
 }
+
+export function ToLink(title) {
+  return title.toLowerCase().split(" ").join("-");
+}
