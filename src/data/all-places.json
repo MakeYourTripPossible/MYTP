@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "img": "/img/MakeYourTripPossible_JIBHI.jpeg",
-    "bannerUrl": "/img/MakeYourTripPossible_JIBHI_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_honeymoon_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_honeymoon_category_banner.jpg",
+    "img": "/img/MakeYourTripPossible_JIBHI.png",
+    "bannerUrl": "/img/MakeYourTripPossible_JIBHI_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_honeymoon_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_honeymoon_category_banner.png",
     "popularTrip": true,
     "topCategoryTrip": true,
     "to": "Jibhi-Himachal-Pradesh",
     "toCategory": "honeymoon-trip",
-    "price": 9999,
+    "price": 6999,
     "label": "honeymoon trip",
-    "day": 4,
-    "night": 3,
+    "day": 3,
+    "night": 2,
     "heading": "Jibhi, Himachal Pradesh",
     "dates": "March 25, March 26, March 27",
     "start": "Delhi",
@@ -78,19 +78,19 @@
   },
   {
     "id": 2,
-    "img": "/img/MakeYourTripPossible_KASOL.jpg",
-    "bannerUrl": "/img/MakeyourTripPossible_KASOL_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_weekend_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.jpg",
+    "img": "/img/MakeYourTripPossible_KASOL.png",
+    "bannerUrl": "/img/MakeyourTripPossible_KASOL_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
     "popularTrip": true,
     "topCategoryTrip": true,
-    "to": "Kasol-Himachal-Pradesh",
+    "to": "kasol-kheerganga-himachal-pradesh",
     "toCategory": "weekend-trip",
-    "price": 19999,
+    "price": 6999,
     "label": "weekend trip",
-    "day": 1,
+    "day": 3,
     "night": 2,
-    "heading": "Kasol, Himachal Pradesh",
+    "heading": "Kasol Kheerganga, Himachal Pradesh",
     "dates": "March 25, March 26, March 27",
     "start": "Delhi",
     "end": "Delhi",
@@ -144,23 +144,23 @@
     "id": 8,
     "img": "/img/MakeYourTripPossible_rishikesh.png",
     "bannerUrl": "/img/MakeyourTripPossible_rishikesh_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_weekend_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "rishikesh-weekend-trip",
     "toCategory": "weekend-trip",
     "price": 5999,
     "label": "weekend trip",
-    "day": 3,
-    "night": 4,
+    "day": 2,
+    "night": 1,
     "heading": "Rishikesh",
     "dates": "March 25, March 26, March 27",
     "start": "Delhi",
     "end": "Delhi",
     "details": [
       {
-        "description": "<b>Rishikesh YOGA capital of the world</b> is a well-known destination for <b>spiritual practice</b> and <b>nature lovers</b>. The Place is famous among youth mostly for river rafting, trekking and Summer camps. Rishikesh is also called the <b>Devbhoomi</b> ( land of god) for various religious places associated with <b>Hinduism</b>. Rishikesh has the most <b>ancient</b> and famous <b>temples<b/> in India, like <b>Neelkhanth Mahadev, Bhootnath Temple, Raghunath Temple, Trayambakeshwar temple,</b> Lakshman temple And many more temples. <br/><br/> The foothill of the <b>Himalayas</b> provides it with a very attractive geographical location, along with the <b>Ganga river, Ram jhula, Laxman jhula,</b> Neer Garh <b>waterfall</b>, all these things made this place a perfect holiday destination for visitors with family and friends. <br/><br/> Along with various adventure and sports activities <b>bungee jumping, river rafting, Trekking,</b> and <b>Camping</b> along with <b>Ganga aarti</b> enhances the beauty of this place and is perfect to make the trip memorable. People from all over the world come to this place <b>to practice yoga</b> and <b>meditation.</b> Handicrafts and local <b>traditional crafts</b>, dresses and <b>folk music</b> and dance of local gharwali culture make it a perfect destination.",
+        "description": "<b>Rishikesh YOGA capital of the world</b> is a well-known destination for <b>spiritual practice</b> and <b>nature lovers</b>. The Place is famous among youth mostly for river rafting, trekking and Summer camps. Rishikesh is also called the <b>Devbhoomi</b> ( land of god) for various religious places associated with <b>Hinduism</b>. Rishikesh has the most <b>ancient</b> and famous <b>temples</b> in India, like <b>Neelkhanth Mahadev, Bhootnath Temple, Raghunath Temple, Trayambakeshwar temple,</b> Lakshman temple And many more temples. <br/><br/> The foothill of the <b>Himalayas</b> provides it with a very attractive geographical location, along with the <b>Ganga river, Ram jhula, Laxman jhula,</b> Neer Garh <b>waterfall</b>, all these things made this place a perfect holiday destination for visitors with family and friends. <br/><br/> Along with various adventure and sports activities <b>bungee jumping, river rafting, Trekking,</b> and <b>Camping</b> along with <b>Ganga aarti</b> enhances the beauty of this place and is perfect to make the trip memorable. People from all over the world come to this place <b>to practice yoga</b> and <b>meditation.</b> Handicrafts and local <b>traditional crafts</b>, dresses and <b>folk music</b> and dance of local gharwali culture make it a perfect destination.",
         "itinerary": [
           {
             "day": "Day 0",
@@ -222,23 +222,23 @@
     "id": 9,
     "img": "/img/MakeYourTripPossible_rishikesh.png",
     "bannerUrl": "/img/MakeyourTripPossible_rishikesh_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_weekend_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "rishikesh-group-trip",
     "toCategory": "group-trip",
     "price": 5999,
     "label": "group trip",
-    "day": 3,
-    "night": 4,
+    "day": 2,
+    "night": 1,
     "heading": "Rishikesh",
     "dates": "March 25, March 26, March 27",
     "start": "Delhi",
     "end": "Delhi",
     "details": [
       {
-        "description": "<b>Rishikesh YOGA capital of the world</b> is a well-known destination for <b>spiritual practice</b> and <b>nature lovers</b>. The Place is famous among youth mostly for river rafting, trekking and Summer camps. Rishikesh is also called the <b>Devbhoomi</b> ( land of god) for various religious places associated with <b>Hinduism</b>. Rishikesh has the most <b>ancient</b> and famous <b>temples<b/> in India, like <b>Neelkhanth Mahadev, Bhootnath Temple, Raghunath Temple, Trayambakeshwar temple,</b> Lakshman temple And many more temples. <br/><br/> The foothill of the <b>Himalayas</b> provides it with a very attractive geographical location, along with the <b>Ganga river, Ram jhula, Laxman jhula,</b> Neer Garh <b>waterfall</b>, all these things made this place a perfect holiday destination for visitors with family and friends. <br/><br/> Along with various adventure and sports activities <b>bungee jumping, river rafting, Trekking,</b> and <b>Camping</b> along with <b>Ganga aarti</b> enhances the beauty of this place and is perfect to make the trip memorable. People from all over the world come to this place <b>to practice yoga</b> and <b>meditation.</b> Handicrafts and local <b>traditional crafts</b>, dresses and <b>folk music</b> and dance of local gharwali culture make it a perfect destination.",
+        "description": "<b>Rishikesh YOGA capital of the world</b> is a well-known destination for <b>spiritual practice</b> and <b>nature lovers</b>. The Place is famous among youth mostly for river rafting, trekking and Summer camps. Rishikesh is also called the <b>Devbhoomi</b> ( land of god) for various religious places associated with <b>Hinduism</b>. Rishikesh has the most <b>ancient</b> and famous <b>temples</b> in India, like <b>Neelkhanth Mahadev, Bhootnath Temple, Raghunath Temple, Trayambakeshwar temple,</b> Lakshman temple And many more temples. <br/><br/> The foothill of the <b>Himalayas</b> provides it with a very attractive geographical location, along with the <b>Ganga river, Ram jhula, Laxman jhula,</b> Neer Garh <b>waterfall</b>, all these things made this place a perfect holiday destination for visitors with family and friends. <br/><br/> Along with various adventure and sports activities <b>bungee jumping, river rafting, Trekking,</b> and <b>Camping</b> along with <b>Ganga aarti</b> enhances the beauty of this place and is perfect to make the trip memorable. People from all over the world come to this place <b>to practice yoga</b> and <b>meditation.</b> Handicrafts and local <b>traditional crafts</b>, dresses and <b>folk music</b> and dance of local gharwali culture make it a perfect destination.",
         "itinerary": [
           {
             "day": "Day 0",
@@ -300,23 +300,23 @@
     "id": 10,
     "img": "/img/MakeYourTripPossible_rishikesh.png",
     "bannerUrl": "/img/MakeyourTripPossible_rishikesh_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_weekend_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "rishikesh-solo-trip",
     "toCategory": "solo-trip",
     "price": 5999,
     "label": "solo trip",
-    "day": 3,
-    "night": 4,
+    "day": 2,
+    "night": 1,
     "heading": "Rishikesh",
     "dates": "March 25, March 26, March 27",
     "start": "Delhi",
     "end": "Delhi",
     "details": [
       {
-        "description": "<b>Rishikesh YOGA capital of the world</b> is a well-known destination for <b>spiritual practice</b> and <b>nature lovers</b>. The Place is famous among youth mostly for river rafting, trekking and Summer camps. Rishikesh is also called the <b>Devbhoomi</b> ( land of god) for various religious places associated with <b>Hinduism</b>. Rishikesh has the most <b>ancient</b> and famous <b>temples<b/> in India, like <b>Neelkhanth Mahadev, Bhootnath Temple, Raghunath Temple, Trayambakeshwar temple,</b> Lakshman temple And many more temples. <br/><br/> The foothill of the <b>Himalayas</b> provides it with a very attractive geographical location, along with the <b>Ganga river, Ram jhula, Laxman jhula,</b> Neer Garh <b>waterfall</b>, all these things made this place a perfect holiday destination for visitors with family and friends. <br/><br/> Along with various adventure and sports activities <b>bungee jumping, river rafting, Trekking,</b> and <b>Camping</b> along with <b>Ganga aarti</b> enhances the beauty of this place and is perfect to make the trip memorable. People from all over the world come to this place <b>to practice yoga</b> and <b>meditation.</b> Handicrafts and local <b>traditional crafts</b>, dresses and <b>folk music</b> and dance of local gharwali culture make it a perfect destination.",
+        "description": "<b>Rishikesh YOGA capital of the world</b> is a well-known destination for <b>spiritual practice</b> and <b>nature lovers</b>. The Place is famous among youth mostly for river rafting, trekking and Summer camps. Rishikesh is also called the <b>Devbhoomi</b> ( land of god) for various religious places associated with <b>Hinduism</b>. Rishikesh has the most <b>ancient</b> and famous <b>temples</b> in India, like <b>Neelkhanth Mahadev, Bhootnath Temple, Raghunath Temple, Trayambakeshwar temple,</b> Lakshman temple And many more temples. <br/><br/> The foothill of the <b>Himalayas</b> provides it with a very attractive geographical location, along with the <b>Ganga river, Ram jhula, Laxman jhula,</b> Neer Garh <b>waterfall</b>, all these things made this place a perfect holiday destination for visitors with family and friends. <br/><br/> Along with various adventure and sports activities <b>bungee jumping, river rafting, Trekking,</b> and <b>Camping</b> along with <b>Ganga aarti</b> enhances the beauty of this place and is perfect to make the trip memorable. People from all over the world come to this place <b>to practice yoga</b> and <b>meditation.</b> Handicrafts and local <b>traditional crafts</b>, dresses and <b>folk music</b> and dance of local gharwali culture make it a perfect destination.",
         "itinerary": [
           {
             "day": "Day 0",
@@ -376,15 +376,15 @@
   },
   {
     "id": 3,
-    "img": "/img/MakeYourTripPossible_Kashmir.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_kashmir_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
+    "img": "/img/MakeYourTripPossible_Kashmir.png",
+    "bannerUrl": "/img/MakeYourTripPossible_kashmir_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
     "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": true,
     "topCategoryTrip": true,
     "to": "Kashmir-Jammu-group-trip",
     "toCategory": "group-trip",
-    "price": 16999,
+    "price": 15999,
     "label": "group trip",
     "day": 5,
     "night": 4,
@@ -467,9 +467,9 @@
   },
   {
     "id": 6,
-    "img": "/img/MakeYourTripPossible_kedarnath.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_kedarnath_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
+    "img": "/img/MakeYourTripPossible_kedarnath.png",
+    "bannerUrl": "/img/MakeYourTripPossible_kedarnath_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
     "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
@@ -570,9 +570,9 @@
   },
   {
     "id": 7,
-    "img": "/img/MakeYourTripPossible_kedarnath.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_kedarnath_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
+    "img": "/img/MakeYourTripPossible_kedarnath.png",
+    "bannerUrl": "/img/MakeYourTripPossible_kedarnath_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
     "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
@@ -673,10 +673,10 @@
   },
   {
     "id": 4,
-    "img": "/img/MakeYourTripPossible_Manali.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_solo_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.jpg",
+    "img": "/img/MakeYourTripPossible_Manali.png",
+    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": true,
     "to": "Manali-Sissu-Jispa-Rothang-solo-trip",
@@ -748,10 +748,10 @@
   },
   {
     "id": 5,
-    "img": "/img/MakeYourTripPossible_Manali.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_solo_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.jpg",
+    "img": "/img/MakeYourTripPossible_Manali.png",
+    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "Manali-Sissu-Jispa-Rothang-international-trip",
@@ -823,10 +823,10 @@
   },
   {
     "id": 11,
-    "img": "/img/MakeYourTripPossible_Manali.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_solo_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.jpg",
+    "img": "/img/MakeYourTripPossible_Manali.png",
+    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "Manali-Sissu-Jispa-Rothang-weekend-trip",
@@ -898,10 +898,10 @@
   },
   {
     "id": 12,
-    "img": "/img/MakeYourTripPossible_Manali.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_solo_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.jpg",
+    "img": "/img/MakeYourTripPossible_Manali.png",
+    "bannerUrl": "/img/MakeYourTripPossible_Manali_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "Manali-Sissu-Jispa-Rothang-group-trip",
@@ -973,15 +973,15 @@
   },
   {
     "id": 13,
-    "img": "/img/MakeYourTripPossible_Kashmir.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_kashmir_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "img": "/img/MakeYourTripPossible_Kashmir.png",
+    "bannerUrl": "/img/MakeYourTripPossible_kashmir_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_honeymoon_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_honeymoon_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "Kashmir-Jammu-honeymoon-trip",
     "toCategory": "honeymoon-trip",
-    "price": 16999,
+    "price": 15999,
     "label": "honeymoon trip",
     "day": 5,
     "night": 4,
@@ -1064,15 +1064,15 @@
   },
   {
     "id": 14,
-    "img": "/img/MakeYourTripPossible_Kashmir.jpg",
-    "bannerUrl": "/img/MakeYourTripPossible_kashmir_Banner.jpg",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "img": "/img/MakeYourTripPossible_Kashmir.png",
+    "bannerUrl": "/img/MakeYourTripPossible_kashmir_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "Kashmir-Jammu-solo-trip",
     "toCategory": "solo-trip",
-    "price": 16999,
+    "price": 15999,
     "label": "solo trip",
     "day": 5,
     "night": 4,
@@ -1157,8 +1157,8 @@
     "id": 15,
     "img": "/img/MakeYourTripPossible_ladakh.png",
     "bannerUrl": "/img/MakeYourTripPossible_ladakh_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "ladakh-weekend-trip",
@@ -1269,8 +1269,8 @@
     "id": 16,
     "img": "/img/MakeYourTripPossible_ladakh.png",
     "bannerUrl": "/img/MakeYourTripPossible_ladakh_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "ladakh-solo-trip",
@@ -1381,7 +1381,7 @@
     "id": 17,
     "img": "/img/MakeYourTripPossible_ladakh.png",
     "bannerUrl": "/img/MakeYourTripPossible_ladakh_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
     "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
@@ -1493,8 +1493,8 @@
     "id": 18,
     "img": "/img/MakeYourTripPossible_goa.png",
     "bannerUrl": "/img/MakeYourTripPossible_goa_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_honeymoon_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_honeymoon_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "goa-honeymoon-trip",
@@ -1601,7 +1601,7 @@
     "id": 19,
     "img": "/img/MakeYourTripPossible_goa.png",
     "bannerUrl": "/img/MakeYourTripPossible_goa_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
     "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
@@ -1709,7 +1709,7 @@
     "id": 20,
     "img": "/img/MakeYourTripPossible_goa.png",
     "bannerUrl": "/img/MakeYourTripPossible_goa_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
     "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
@@ -1817,8 +1817,8 @@
     "id": 21,
     "img": "/img/MakeYourTripPossible_goa.png",
     "bannerUrl": "/img/MakeYourTripPossible_goa_Banner.png",
-    "categoryImg": "/img/MakeYourTripPossible_group_category.jpg",
-    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
     "popularTrip": false,
     "topCategoryTrip": false,
     "to": "goa-solo-trip",
@@ -1901,6 +1901,453 @@
             "title": "Time to Depart to Home",
             "brief": [
               "Have breakfast, Afterwards, you will be switched to the Airport for your journey back home with recollections of this cold desert."
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "img": "/img/MakeYourTripPossible_auli.png",
+    "bannerUrl": "/img/MakeYourTripPossible_auli_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "auli-chamoli-solo-trip",
+    "toCategory": "solo-trip",
+    "price": 6999,
+    "label": "solo trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Auli, Chamoli",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "In India,<b>Auli</b> is also known as a ,<b>skiing destination,</b>. Visitors to this hill station enjoy the fantastic adventure sports opportunities such as <b>skiing, trekking, ropeways, and camping,</b>. Along with these things, this place also offers visitors a lot of,<b>natural beauty</b> and the,<b>Himalayan culture,</b>. <br/><br/>  Visiting this place will provide you with an abundance of sightseeing opportunities. It has the ,<b>Trishul peak,</b> of Himalaya, the ,<b>Auli artificial man-made lake, Chenab lake, Hanuman Ghat, Nanda Devi National Park,</b>, and ,<b>Garson Bugyal,</b> a pastures land dotted with ,<b>oak trees, Vasudhara Falls,</b>, Kuari pass trek, etc. <br/><br/> Besides natural wonders, this place also offers a lot of sightseeing associated with religious importance, like,<b>Joshimath Math, Rudrparyag, Narahinga Temple, Hemkund Sahib</b>, an important gurudwara associated with,<b>Guru Govind Singh,</b>, and <b>Gopeshwar,</b>, a place with many ancient temples. <br/><br/>  You can purchase a variety of goods from this place to give as,<b>gifts,</b> to your friends and family. You can get ,<b>kumaoni,</b> and ,<b>garhwali style handicraft,</b> items made out of ,<b>bamboo for your kitchen utility</b>, decorations, carpets, baskets, etc. You can also get handwoven jute carpets and bags, fresh jams and pickles made out of fresh fruits, <b>local fruit wine,</b>, honey, and,<b>hand-knitted woolen clothes.</b>. <br/><br/>  This destination is the complete package of enjoyment with Adventure, sports, photography, spirituality, and peace in the lap of nature.",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI - JOSHIMATH/AULI",
+            "brief": [
+              "Start your journey at 7 P.M by tempo traveler. Overnight journey to AULI"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "JOSHIMATH/AULI-AULI SIGHTSEEING",
+            "brief": [
+              "Upon arriving at the Auli point of Ropeway after breakfast, you can view skiers in Auli from the Ropeway",
+              "A short hike from Auli takes you to Gurson Bugyal, where you can see imposing mountains like Nanda Devi, Trishul, and Drona",
+              "Enjoying Joshimath/Auli museum, having dinner and staying in a hotel in Joshimath/Auli"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "LOCAL SIGHT SEEN",
+            "brief": [
+              "We will spend the entire day touring Auli's local sights after breakfast",
+              "After dinner, we went back to the hotel to enjoy an overnight stay in Joshimath/Auli"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "JOSHIMATH/AULI DELHI",
+            "brief": [
+              "Enjoy your time near the mountain bed",
+              "Have breakfast by 11 am",
+              "With never-ending memories, head back to Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "img": "/img/MakeYourTripPossible_auli.png",
+    "bannerUrl": "/img/MakeYourTripPossible_auli_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "auli-chamoli-group-trip",
+    "toCategory": "group-trip",
+    "price": 6999,
+    "label": "group trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Auli, Chamoli",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "In India,<b>Auli</b> is also known as a ,<b>skiing destination,</b>. Visitors to this hill station enjoy the fantastic adventure sports opportunities such as <b>skiing, trekking, ropeways, and camping,</b>. Along with these things, this place also offers visitors a lot of,<b>natural beauty</b> and the,<b>Himalayan culture,</b>. <br/><br/>  Visiting this place will provide you with an abundance of sightseeing opportunities. It has the ,<b>Trishul peak,</b> of Himalaya, the ,<b>Auli artificial man-made lake, Chenab lake, Hanuman Ghat, Nanda Devi National Park,</b>, and ,<b>Garson Bugyal,</b> a pastures land dotted with ,<b>oak trees, Vasudhara Falls,</b>, Kuari pass trek, etc. <br/><br/> Besides natural wonders, this place also offers a lot of sightseeing associated with religious importance, like,<b>Joshimath Math, Rudrparyag, Narahinga Temple, Hemkund Sahib</b>, an important gurudwara associated with,<b>Guru Govind Singh,</b>, and <b>Gopeshwar,</b>, a place with many ancient temples. <br/><br/>  You can purchase a variety of goods from this place to give as,<b>gifts,</b> to your friends and family. You can get ,<b>kumaoni,</b> and ,<b>garhwali style handicraft,</b> items made out of ,<b>bamboo for your kitchen utility</b>, decorations, carpets, baskets, etc. You can also get handwoven jute carpets and bags, fresh jams and pickles made out of fresh fruits, <b>local fruit wine,</b>, honey, and,<b>hand-knitted woolen clothes.</b>. <br/><br/>  This destination is the complete package of enjoyment with Adventure, sports, photography, spirituality, and peace in the lap of nature.",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI - JOSHIMATH/AULI",
+            "brief": [
+              "Start your journey at 7 P.M by tempo traveler. Overnight journey to AULI"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "JOSHIMATH/AULI-AULI SIGHTSEEING",
+            "brief": [
+              "Upon arriving at the Auli point of Ropeway after breakfast, you can view skiers in Auli from the Ropeway",
+              "A short hike from Auli takes you to Gurson Bugyal, where you can see imposing mountains like Nanda Devi, Trishul, and Drona",
+              "Enjoying Joshimath/Auli museum, having dinner and staying in a hotel in Joshimath/Auli"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "LOCAL SIGHT SEEN",
+            "brief": [
+              "We will spend the entire day touring Auli's local sights after breakfast",
+              "After dinner, we went back to the hotel to enjoy an overnight stay in Joshimath/Auli"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "JOSHIMATH/AULI DELHI",
+            "brief": [
+              "Enjoy your time near the mountain bed",
+              "Have breakfast by 11 am",
+              "With never-ending memories, head back to Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "img": "/img/MakeYourTripPossible_auli.png",
+    "bannerUrl": "/img/MakeYourTripPossible_auli_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "auli-chamoli-weekend-trip",
+    "toCategory": "weekend-trip",
+    "price": 6999,
+    "label": "weekend trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Auli, Chamoli",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "In India,<b>Auli</b> is also known as a ,<b>skiing destination,</b>. Visitors to this hill station enjoy the fantastic adventure sports opportunities such as <b>skiing, trekking, ropeways, and camping,</b>. Along with these things, this place also offers visitors a lot of,<b>natural beauty</b> and the,<b>Himalayan culture,</b>. <br/><br/>  Visiting this place will provide you with an abundance of sightseeing opportunities. It has the ,<b>Trishul peak,</b> of Himalaya, the ,<b>Auli artificial man-made lake, Chenab lake, Hanuman Ghat, Nanda Devi National Park,</b>, and ,<b>Garson Bugyal,</b> a pastures land dotted with ,<b>oak trees, Vasudhara Falls,</b>, Kuari pass trek, etc. <br/><br/> Besides natural wonders, this place also offers a lot of sightseeing associated with religious importance, like,<b>Joshimath Math, Rudrparyag, Narahinga Temple, Hemkund Sahib</b>, an important gurudwara associated with,<b>Guru Govind Singh,</b>, and <b>Gopeshwar,</b>, a place with many ancient temples. <br/><br/>  You can purchase a variety of goods from this place to give as,<b>gifts,</b> to your friends and family. You can get ,<b>kumaoni,</b> and ,<b>garhwali style handicraft,</b> items made out of ,<b>bamboo for your kitchen utility</b>, decorations, carpets, baskets, etc. You can also get handwoven jute carpets and bags, fresh jams and pickles made out of fresh fruits, <b>local fruit wine,</b>, honey, and,<b>hand-knitted woolen clothes.</b>. <br/><br/>  This destination is the complete package of enjoyment with Adventure, sports, photography, spirituality, and peace in the lap of nature.",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI - JOSHIMATH/AULI",
+            "brief": [
+              "Start your journey at 7 P.M by tempo traveler. Overnight journey to AULI"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "JOSHIMATH/AULI-AULI SIGHTSEEING",
+            "brief": [
+              "Upon arriving at the Auli point of Ropeway after breakfast, you can view skiers in Auli from the Ropeway",
+              "A short hike from Auli takes you to Gurson Bugyal, where you can see imposing mountains like Nanda Devi, Trishul, and Drona",
+              "Enjoying Joshimath/Auli museum, having dinner and staying in a hotel in Joshimath/Auli"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "LOCAL SIGHT SEEN",
+            "brief": [
+              "We will spend the entire day touring Auli's local sights after breakfast",
+              "After dinner, we went back to the hotel to enjoy an overnight stay in Joshimath/Auli"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "JOSHIMATH/AULI DELHI",
+            "brief": [
+              "Enjoy your time near the mountain bed",
+              "Have breakfast by 11 am",
+              "With never-ending memories, head back to Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "img": "/img/MakeYourTripPossible_wayanad.png",
+    "bannerUrl": "/img/MakeYourTripPossible_wayanad_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "wayanad-western-ghat-weekend-trip",
+    "toCategory": "weekend-trip",
+    "price": 9999,
+    "label": "weekend trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Wayanad - Western Ghat",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Wayanad</b>, which completely lies in the <b>western ghat</b> of India, has rich cultural and <b>historical sites<b/> along with green lush <b>vegetation waterfalls, rivers, lakes</b> dams and a <b> hill station</b>  with dense <b>forest</b>. All these things make this place a wonderful destination for <b>nature lovers</b>, solo as well as for couples.<br/><br/> This place offers a variety of sightseeing for visitors like Edakkal cave showing <b>cave paintings</b> of around <b>6000 Bc</b>, Wayanad <b>wildlife sanctuary</b> having 4 major hills of western ghats and a variety of wildlife, <b>Banasura Sagar Dam ( Asia's second-largest dam)</b> and  Pookode lake for boating, Karlad lake, Meenmutty Waterfall, Soochipara falls,<b>Kanthanpara Waterfalls</b>.<br/><br/> Apart from this, there is <b>Kuruvadweep island</b> and many <b>religious places</b> like <b>Pallikkunnu Church, Thirunelli Temple</b>, Pakshipathalam <b>Bird Sanctuary</b>, Jain Temple, and Chain Tree, <b>Wayanad Heritage Museum</b>, Varambetta Mosque etc.<br/><br/> In this destination, people enjoy western ghats <b>Hiking, Wildlife Safari</b>, Enjoying Hilltop views, River <b>Birdwatching, Boating, Bamboo Rafting</b>, Camping with friends, <b>Zip-lining</b> over hills, and <b>Cycling</b> in local Tree <b>house experiences</b>, visiting local <b>plantation farms</b>.<br/><br/> There are a variety of articles that you can buy for your loved ones like Tea, Honey, Native Crafts, <b>Herbal Plant, Bamboo articles</b> and other Hand made products.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "WAY FROM DELHI TO WAYANAD",
+            "brief": [
+              "Overnight journey to the destination, the wonderful land of Kerala"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "ARRIVAL AT DESTINATION AND JOURNEY BEGIN",
+            "brief": [
+              "Check-in at the Hotel. Have breakfast, Time to Tour Pookode Lake and the spooky Chain tree",
+              "Feel the beauty of mountain ranges, lush green gardens, and valleys while driving",
+              "Back to the hotel in the evening. Time to get into the local market",
+              "Overnight stay in Wayanad"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "CHEMBRA PEAK",
+            "brief": [
+              "Have breakfast, Hiking toward Chembra peak at 6890 ft., have a wonderful view of valleys and lake",
+              "Full day exploration with hiking",
+              "Back to the hotel by evening",
+              "Night stay"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "SOOCHIPARA WATERFALL - EDAKKAL CAVES - EVENING DEPARTURE TO BANGALORE",
+            "brief": [
+              "Have breakfast, some recreation time, and time to leave the hotel.",
+              "Now it's Soochipara Waterfall and Edakkal Caves",
+              "By Evening out for Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "img": "/img/MakeYourTripPossible_wayanad.png",
+    "bannerUrl": "/img/MakeYourTripPossible_wayanad_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "wayanad-western-ghat-group-trip",
+    "toCategory": "group-trip",
+    "price": 9999,
+    "label": "group trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Wayanad - Western Ghat",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Wayanad</b>, which completely lies in the <b>western ghat</b> of India, has rich cultural and <b>historical sites<b/> along with green lush <b>vegetation waterfalls, rivers, lakes</b> dams and a <b> hill station</b>  with dense <b>forest</b>. All these things make this place a wonderful destination for <b>nature lovers</b>, solo as well as for couples.<br/><br/> This place offers a variety of sightseeing for visitors like Edakkal cave showing <b>cave paintings</b> of around <b>6000 Bc</b>, Wayanad <b>wildlife sanctuary</b> having 4 major hills of western ghats and a variety of wildlife, <b>Banasura Sagar Dam ( Asia's second-largest dam)</b> and  Pookode lake for boating, Karlad lake, Meenmutty Waterfall, Soochipara falls,<b>Kanthanpara Waterfalls</b>.<br/><br/> Apart from this, there is <b>Kuruvadweep island</b> and many <b>religious places</b> like <b>Pallikkunnu Church, Thirunelli Temple</b>, Pakshipathalam <b>Bird Sanctuary</b>, Jain Temple, and Chain Tree, <b>Wayanad Heritage Museum</b>, Varambetta Mosque etc.<br/><br/> In this destination, people enjoy western ghats <b>Hiking, Wildlife Safari</b>, Enjoying Hilltop views, River <b>Birdwatching, Boating, Bamboo Rafting</b>, Camping with friends, <b>Zip-lining</b> over hills, and <b>Cycling</b> in local Tree <b>house experiences</b>, visiting local <b>plantation farms</b>.<br/><br/> There are a variety of articles that you can buy for your loved ones like Tea, Honey, Native Crafts, <b>Herbal Plant, Bamboo articles</b> and other Hand made products.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "WAY FROM DELHI TO WAYANAD",
+            "brief": [
+              "Overnight journey to the destination, the wonderful land of Kerala"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "ARRIVAL AT DESTINATION AND JOURNEY BEGIN",
+            "brief": [
+              "Check-in at the Hotel. Have breakfast, Time to Tour Pookode Lake and the spooky Chain tree",
+              "Feel the beauty of mountain ranges, lush green gardens, and valleys while driving",
+              "Back to the hotel in the evening. Time to get into the local market",
+              "Overnight stay in Wayanad"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "CHEMBRA PEAK",
+            "brief": [
+              "Have breakfast, Hiking toward Chembra peak at 6890 ft., have a wonderful view of valleys and lake",
+              "Full day exploration with hiking",
+              "Back to the hotel by evening",
+              "Night stay"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "SOOCHIPARA WATERFALL - EDAKKAL CAVES - EVENING DEPARTURE TO BANGALORE",
+            "brief": [
+              "Have breakfast, some recreation time, and time to leave the hotel.",
+              "Now it's Soochipara Waterfall and Edakkal Caves",
+              "By Evening out for Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "img": "/img/MakeYourTripPossible_wayanad.png",
+    "bannerUrl": "/img/MakeYourTripPossible_wayanad_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "wayanad-western-ghat-solo-trip",
+    "toCategory": "solo-trip",
+    "price": 9999,
+    "label": "solo trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Wayanad - Western Ghat",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Wayanad</b>, which completely lies in the <b>western ghat</b> of India, has rich cultural and <b>historical sites<b/> along with green lush <b>vegetation waterfalls, rivers, lakes</b> dams and a <b> hill station</b>  with dense <b>forest</b>. All these things make this place a wonderful destination for <b>nature lovers</b>, solo as well as for couples.<br/><br/> This place offers a variety of sightseeing for visitors like Edakkal cave showing <b>cave paintings</b> of around <b>6000 Bc</b>, Wayanad <b>wildlife sanctuary</b> having 4 major hills of western ghats and a variety of wildlife, <b>Banasura Sagar Dam ( Asia's second-largest dam)</b> and  Pookode lake for boating, Karlad lake, Meenmutty Waterfall, Soochipara falls,<b>Kanthanpara Waterfalls</b>.<br/><br/> Apart from this, there is <b>Kuruvadweep island</b> and many <b>religious places</b> like <b>Pallikkunnu Church, Thirunelli Temple</b>, Pakshipathalam <b>Bird Sanctuary</b>, Jain Temple, and Chain Tree, <b>Wayanad Heritage Museum</b>, Varambetta Mosque etc.<br/><br/> In this destination, people enjoy western ghats <b>Hiking, Wildlife Safari</b>, Enjoying Hilltop views, River <b>Birdwatching, Boating, Bamboo Rafting</b>, Camping with friends, <b>Zip-lining</b> over hills, and <b>Cycling</b> in local Tree <b>house experiences</b>, visiting local <b>plantation farms</b>.<br/><br/> There are a variety of articles that you can buy for your loved ones like Tea, Honey, Native Crafts, <b>Herbal Plant, Bamboo articles</b> and other Hand made products.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "WAY FROM DELHI TO WAYANAD",
+            "brief": [
+              "Overnight journey to the destination, the wonderful land of Kerala"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "ARRIVAL AT DESTINATION AND JOURNEY BEGIN",
+            "brief": [
+              "Check-in at the Hotel. Have breakfast, Time to Tour Pookode Lake and the spooky Chain tree",
+              "Feel the beauty of mountain ranges, lush green gardens, and valleys while driving",
+              "Back to the hotel in the evening. Time to get into the local market",
+              "Overnight stay in Wayanad"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "CHEMBRA PEAK",
+            "brief": [
+              "Have breakfast, Hiking toward Chembra peak at 6890 ft., have a wonderful view of valleys and lake",
+              "Full day exploration with hiking",
+              "Back to the hotel by evening",
+              "Night stay"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "SOOCHIPARA WATERFALL - EDAKKAL CAVES - EVENING DEPARTURE TO BANGALORE",
+            "brief": [
+              "Have breakfast, some recreation time, and time to leave the hotel.",
+              "Now it's Soochipara Waterfall and Edakkal Caves",
+              "By Evening out for Delhi"
             ]
           }
         ],
