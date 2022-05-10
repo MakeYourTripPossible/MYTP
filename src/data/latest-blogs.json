@@ -7,7 +7,8 @@
     "img": "https://1.bp.blogspot.com/-xhL1DZLf2Ik/YSZdDIMH5PI/AAAAAAAAMA4/q7Zc7sQ9_fojsSDk7fuPbof_lQqeFywigCPcBGAsYHg/s0/1629902846315.jpeg",
     "alt": "Make Your Trip Possible",
     "links": "https://setupwithprachi.blogspot.com/2021/09/top-10-places-to-visit-in-tamil-nadu.html",
-    "isPopular": true
+    "isPopular": true,
+    "isHomeBlog": true
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "img": "https://img.freepik.com/free-photo/online-message-blog-chat-communication-envelop-graphic-icon-concept_53876-139717.jpg?size=626&ext=jpg&uid=R18458583",
     "alt": "Make Your Trip Possible",
     "links": "/",
-    "isPopular": false
+    "isPopular": false,
+    "isHomeBlog": true
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "img": "https://img.freepik.com/free-photo/western-woman-boat-exploring-river-ganges_53876-65345.jpg?size=626&ext=jpg&uid=R18458583",
     "alt": "Make Your Trip Possible",
     "links": "https://setupwithprachi.blogspot.com/2021/11/tourist-attractions-of-uttar-pradesh.html",
-    "isPopular": true
+    "isPopular": true,
+    "isHomeBlog": false
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "img": "https://1.bp.blogspot.com/-Ux3V11PCuFM/YTdEqqP6HiI/AAAAAAAAMzc/bF_XKwf6beY9dLnA-NQ9M08uMa4Q0-iJwCPcBGAsYHg/s0/1631009331077.jpeg",
     "alt": "Make Your Trip Possible",
     "links": "/",
-    "isPopular": false
+    "isPopular": false,
+    "isHomeBlog": false
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "img": "https://1.bp.blogspot.com/-65kFFgzQ-4s/YSZaV56tEZI/AAAAAAAAMAM/RGBPA9dzKZc3Pp_IjVJ_2NrEH1V3DYiaQCPcBGAsYHg/s0/1629902846318.jpeg",
     "alt": "Make Your Trip Possible",
     "links": "https://setupwithprachi.blogspot.com/2021/08/everything-about-himachal-pradesh.htmls",
-    "isPopular": true
+    "isPopular": true,
+    "isHomeBlog": false
   },
   {
     "id": 7,
@@ -57,6 +62,7 @@
     "img": "https://img.freepik.com/free-photo/bangla-sahib-gurudwara-religious-place-sikhs_181020-2635.jpg?size=626&ext=jpg&uid=R18458583",
     "alt": "Make Your Trip Possible",
     "links": "/",
-    "isPopular": false
+    "isPopular": false,
+    "isHomeBlog": false
   }
 ]

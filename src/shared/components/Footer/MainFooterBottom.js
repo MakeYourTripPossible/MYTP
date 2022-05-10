@@ -7,8 +7,8 @@ const MainFooterBottom = () => {
         <div className="col-12">
           <p>
             © 2021 MakeYourTripPossible. All rights reserved | Design by&nbsp;
-            <a href="https://OneEyeHealer.github.io">
-              OneEyeHealer<i className="fa fa-love"></i>
+            <a href="https://makeyourtrippossible.com/">
+              MakeyYourTripPossible<i className="fa fa-love"></i>
             </a>
           </p>
         </div>

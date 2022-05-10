@@ -2150,7 +2150,7 @@
     "topCategoryTrip": false,
     "to": "wayanad-western-ghat-weekend-trip",
     "toCategory": "weekend-trip",
-    "price": 9999,
+    "price": 8999,
     "label": "weekend trip",
     "day": 3,
     "night": 2,
@@ -2226,7 +2226,7 @@
     "topCategoryTrip": false,
     "to": "wayanad-western-ghat-group-trip",
     "toCategory": "group-trip",
-    "price": 9999,
+    "price": 8999,
     "label": "group trip",
     "day": 3,
     "night": 2,
@@ -2302,7 +2302,7 @@
     "topCategoryTrip": false,
     "to": "wayanad-western-ghat-solo-trip",
     "toCategory": "solo-trip",
-    "price": 9999,
+    "price": 8999,
     "label": "solo trip",
     "day": 3,
     "night": 2,
@@ -2348,6 +2348,705 @@
               "Have breakfast, some recreation time, and time to leave the hotel.",
               "Now it's Soochipara Waterfall and Edakkal Caves",
               "By Evening out for Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "img": "/img/MakeYourTripPossible_coorg.png",
+    "bannerUrl": "/img/MakeYourTripPossible_coorg_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "coorg-madikeri-solo-trip",
+    "toCategory": "solo-trip",
+    "price": 9999,
+    "label": "solo trip",
+    "day": 3,
+    "night": 2,
+    "heading": "COORG (MADIKERI)",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Madikeri</b>, a wonderful hill town of <b>southern India</b>, situated at an elevation of <b>3700 feet</b> is also known as <b>Raja's seat</b>. This destination is famous for its large variety of <b>flora and fauna</b> and <b>paddy</b> fields.<br/><br/> This place is also very popular among the youth for its sports and adventurous activity. Top sightseeing at this destination is <b>Raja's seat</b>, which is a <b>garden</b> with artificial fountains, <b>Abbey Falls, Iruppu Falls, Raja's Tomb, Madikeri Fort, Raja's Tomb, Coorg  Adventure club, Tadiandamol Peak</b>, Honnamana Kere lake largest lake in this city, <b>Brahmgiri wildlife sanctuary, Nagarhole National Park</b>, Bird watching, <b>Virajpet Hill</b> station and much more.<br/><br/> Apart from this, there are also some <b>religious places</b> enhancing the beauty of the city like <b>Rameshwara Temple, Omkareshwar Temple</b>, Sri Bhagandeshwara temple, Kukke Shree <b>Subramanya temple and Golden Temple</b>, a Buddhist <b>monastery</b> belonging to Tibetan Buddhism. All are adding beauty to the culture of the city.<br/><br/> Due to its extraordinary geographically advantage, This destination offers numerous adventurous <b>sports activities</b> to the visitors, like white water rafting, Mountain <b>hiking, waterfall hike, Cycling</b> in the hilly terrain, <b>Zip lining</b>, Local Ayurvedic <b>Spa treatment, Rock climbing, Elephant camping </b>etc. all these are bolstering the beauty of this destination.<br/><br/> You can also explore the <b>local market</b> to get Pure Honey, <b>Spices</b>, Dry fruits,  <b>Chocolate</b> and orange, <b>Tibetan handmade artefacts</b>, Coorg wine made from fruits and much more.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI TO COORG",
+            "brief": [
+              "overnight night journey to the destination, the wonderful land of Madikeri"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "ARRIVAL AT DESTINATION AND JOURNEY BEGIN",
+            "brief": [
+              "Check-in at the Hotel. Have breakfast, Time to Tour Talacauvery, where the Kaveri river originates",
+              "Visit to Sri Bhagamandala Temple",
+              "Enjoy the shopping in the local market",
+              "In the evening, Experience the wonderful sunset at Raja’s Seats",
+              "Back to the hotel in the evening",
+              "Overnight stay in Hotel"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "CHEMBRA PEAK",
+            "brief": [
+              "Have breakfast, Hiking toward Kotebetta peak at 5120 ft., have a wonderful view of valleys and lake",
+              "Full day exploration with hiking",
+              "Back to the hotel by evening",
+              "Night stay in Coorg"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "CITY EXPLORATION - AND DEPARTURE TO HOME DESTINATION",
+            "brief": [
+              "Have breakfast, some recreation time, and time to leave ou the hotel to experience, Abbey falls, Madikeri Fort",
+              "Now time to drive to Namdroling Monastery and have some fun at Dubare Elephant camp",
+              "By Evening out for Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "img": "/img/MakeYourTripPossible_coorg.png",
+    "bannerUrl": "/img/MakeYourTripPossible_coorg_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "coorg-madikeri-group-trip",
+    "toCategory": "group-trip",
+    "price": 9999,
+    "label": "group trip",
+    "day": 3,
+    "night": 2,
+    "heading": "COORG (MADIKERI)",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Madikeri</b>, a wonderful hill town of <b>southern India</b>, situated at an elevation of <b>3700 feet</b> is also known as <b>Raja's seat</b>. This destination is famous for its large variety of <b>flora and fauna</b> and <b>paddy</b> fields.<br/><br/> This place is also very popular among the youth for its sports and adventurous activity. Top sightseeing at this destination is <b>Raja's seat</b>, which is a <b>garden</b> with artificial fountains, <b>Abbey Falls, Iruppu Falls, Raja's Tomb, Madikeri Fort, Raja's Tomb, Coorg  Adventure club, Tadiandamol Peak</b>, Honnamana Kere lake largest lake in this city, <b>Brahmgiri wildlife sanctuary, Nagarhole National Park</b>, Bird watching, <b>Virajpet Hill</b> station and much more.<br/><br/> Apart from this, there are also some <b>religious places</b> enhancing the beauty of the city like <b>Rameshwara Temple, Omkareshwar Temple</b>, Sri Bhagandeshwara temple, Kukke Shree <b>Subramanya temple and Golden Temple</b>, a Buddhist <b>monastery</b> belonging to Tibetan Buddhism. All are adding beauty to the culture of the city.<br/><br/> Due to its extraordinary geographically advantage, This destination offers numerous adventurous <b>sports activities</b> to the visitors, like white water rafting, Mountain <b>hiking, waterfall hike, Cycling</b> in the hilly terrain, <b>Zip lining</b>, Local Ayurvedic <b>Spa treatment, Rock climbing, Elephant camping </b>etc. all these are bolstering the beauty of this destination.<br/><br/> You can also explore the <b>local market</b> to get Pure Honey, <b>Spices</b>, Dry fruits,  <b>Chocolate</b> and orange, <b>Tibetan handmade artefacts</b>, Coorg wine made from fruits and much more.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI TO COORG",
+            "brief": [
+              "overnight night journey to the destination, the wonderful land of Madikeri"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "ARRIVAL AT DESTINATION AND JOURNEY BEGIN",
+            "brief": [
+              "Check-in at the Hotel. Have breakfast, Time to Tour Talacauvery, where the Kaveri river originates",
+              "Visit to Sri Bhagamandala Temple",
+              "Enjoy the shopping in the local market",
+              "In the evening, Experience the wonderful sunset at Raja’s Seats",
+              "Back to the hotel in the evening",
+              "Overnight stay in Hotel"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "CHEMBRA PEAK",
+            "brief": [
+              "Have breakfast, Hiking toward Kotebetta peak at 5120 ft., have a wonderful view of valleys and lake",
+              "Full day exploration with hiking",
+              "Back to the hotel by evening",
+              "Night stay in Coorg"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "CITY EXPLORATION - AND DEPARTURE TO HOME DESTINATION",
+            "brief": [
+              "Have breakfast, some recreation time, and time to leave ou the hotel to experience, Abbey falls, Madikeri Fort",
+              "Now time to drive to Namdroling Monastery and have some fun at Dubare Elephant camp",
+              "By Evening out for Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "img": "/img/MakeYourTripPossible_coorg.png",
+    "bannerUrl": "/img/MakeYourTripPossible_coorg_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "coorg-madikeri-weekend-trip",
+    "toCategory": "weekend-trip",
+    "price": 9999,
+    "label": "weekend trip",
+    "day": 3,
+    "night": 2,
+    "heading": "COORG (MADIKERI)",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Madikeri</b>, a wonderful hill town of <b>southern India</b>, situated at an elevation of <b>3700 feet</b> is also known as <b>Raja's seat</b>. This destination is famous for its large variety of <b>flora and fauna</b> and <b>paddy</b> fields.<br/><br/> This place is also very popular among the youth for its sports and adventurous activity. Top sightseeing at this destination is <b>Raja's seat</b>, which is a <b>garden</b> with artificial fountains, <b>Abbey Falls, Iruppu Falls, Raja's Tomb, Madikeri Fort, Raja's Tomb, Coorg  Adventure club, Tadiandamol Peak</b>, Honnamana Kere lake largest lake in this city, <b>Brahmgiri wildlife sanctuary, Nagarhole National Park</b>, Bird watching, <b>Virajpet Hill</b> station and much more.<br/><br/> Apart from this, there are also some <b>religious places</b> enhancing the beauty of the city like <b>Rameshwara Temple, Omkareshwar Temple</b>, Sri Bhagandeshwara temple, Kukke Shree <b>Subramanya temple and Golden Temple</b>, a Buddhist <b>monastery</b> belonging to Tibetan Buddhism. All are adding beauty to the culture of the city.<br/><br/> Due to its extraordinary geographically advantage, This destination offers numerous adventurous <b>sports activities</b> to the visitors, like white water rafting, Mountain <b>hiking, waterfall hike, Cycling</b> in the hilly terrain, <b>Zip lining</b>, Local Ayurvedic <b>Spa treatment, Rock climbing, Elephant camping </b>etc. all these are bolstering the beauty of this destination.<br/><br/> You can also explore the <b>local market</b> to get Pure Honey, <b>Spices</b>, Dry fruits,  <b>Chocolate</b> and orange, <b>Tibetan handmade artefacts</b>, Coorg wine made from fruits and much more.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI TO COORG",
+            "brief": [
+              "overnight night journey to the destination, the wonderful land of Madikeri"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "ARRIVAL AT DESTINATION AND JOURNEY BEGIN",
+            "brief": [
+              "Check-in at the Hotel. Have breakfast, Time to Tour Talacauvery, where the Kaveri river originates",
+              "Visit to Sri Bhagamandala Temple",
+              "Enjoy the shopping in the local market",
+              "In the evening, Experience the wonderful sunset at Raja’s Seats",
+              "Back to the hotel in the evening",
+              "Overnight stay in Hotel"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "CHEMBRA PEAK",
+            "brief": [
+              "Have breakfast, Hiking toward Kotebetta peak at 5120 ft., have a wonderful view of valleys and lake",
+              "Full day exploration with hiking",
+              "Back to the hotel by evening",
+              "Night stay in Coorg"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "CITY EXPLORATION - AND DEPARTURE TO HOME DESTINATION",
+            "brief": [
+              "Have breakfast, some recreation time, and time to leave ou the hotel to experience, Abbey falls, Madikeri Fort",
+              "Now time to drive to Namdroling Monastery and have some fun at Dubare Elephant camp",
+              "By Evening out for Delhi"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "img": "/img/MakeYourTripPossible_chikmagalur.png",
+    "bannerUrl": "/img/MakeYourTripPossible_chikmagalur_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_weekend_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_weekend_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "Chikmagalur-western-karnataka-weekend-trip",
+    "toCategory": "weekend-trip",
+    "price": 9999,
+    "label": "weekend trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Chikmagalur, Western Karnataka",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Chikmagalur or Chikmagaluru</b> was also known as the <b>“coffee land of India</b> '' a hill station destination in southern India that completely lies in <b>western ghats</b> and is popularly known for its coffee plantation. This destination is visited by thousands of people as <b>honeymoon</b> and holiday destinations. As Karnataka is the largest producer of coffee in India, the <b>hilly terrain</b> full of coffee plantations is one of the key glamours for tourists.<br/><br/> <b>Kudremukh National park, Bhadra wildlife sanctuary, Bhadra Dam, Mullayanagiri Peak, Hanumana Gundi Falls, Hebbe Falls, Kallathigiri Falls</b>, Baba Budangiri (one of the most visited places in Baba Budan range), <b>Coffee Museum, Z point</b> ( one of the best place for trekking in Karnataka), Hirekolale lake, Ayyanakere Lake, Ballalarayana Durga fort, etc. this place offers a lot more which will make your trip unforgettable and Adventurous.<br/><br/> Apart from the wonder of nature this place also has many <b>religious sites</b> which enrich the cultural beauty of this place like <b>Kodandarama Temple</b> the temple that depicts Sri Ram and Lakshmana holding an arrow, <b>Sringeri Sharada Peetham</b> is the first-ever <b>Peeth established by Adi Shankaracharya</b>, Shri <b>Veenanarayan temple</b>, the shrine is dedicated to Lord Vishnu and showing their different incarnations and many more things to stimulate your spirituality.<br/><br/> <b>Camping, Mountain hikes, pilgrimage town</b> visits, <b>coffee plantation tours, boat riding</b> road, motorbiking reservoir, <b>jet-skiing</b>, and natural <b>spa</b> treatment are the sports activities that one can enjoy at this destination.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "DESTINATION  ARRIVAL - KEMMANAGUNDI EXPLORATION",
+            "brief": [
+              "Early morning reaches Chikmagalur, the ,\"coffee land of Karnataka\"",
+              "Check-in at the Hotel. Have breakfast, Out for Kemmanagundi to explore the hill stations.",
+              "Explore the mountain range, lush green gardens and valleys",
+              "Back to the hotel in the evening."
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "EXPLORATION",
+            "brief": [
+              "Have breakfast, and trek to Mullayanagiri peak at an elevation of 6,315 ft, to experience the beauty of nature",
+              "Now time to, visit Baba Budangiri, Jhari waterfall, Kavikal Gandhi",
+              "Back to the hotel in the evening."
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "TRANSFER TO BELUR, EVENING DEPARTURE TO BANGALORE",
+            "brief": [
+              "Have breakfast, leave the hotel",
+              "Drive for Belur",
+              "Known for its Hoysala workmanship. Marvel at the architecture",
+              "It's time for water sports activities such as Jet Ski, Speed Boat rides, Banana Boat, Bumper rides, Kayaking, and Cruise boats.",
+              "Visit Halebid and Chennakesava temple at Belur",
+              "Evening departure"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "img": "/img/MakeYourTripPossible_chikmagalur.png",
+    "bannerUrl": "/img/MakeYourTripPossible_chikmagalur_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_group_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_group_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "Chikmagalur-western-karnataka-group-trip",
+    "toCategory": "group-trip",
+    "price": 9999,
+    "label": "group trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Chikmagalur, Western Karnataka",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Chikmagalur or Chikmagaluru</b> was also known as the <b>“coffee land of India</b> '' a hill station destination in southern India that completely lies in <b>western ghats</b> and is popularly known for its coffee plantation. This destination is visited by thousands of people as <b>honeymoon</b> and holiday destinations. As Karnataka is the largest producer of coffee in India, the <b>hilly terrain</b> full of coffee plantations is one of the key glamours for tourists.<br/><br/> <b>Kudremukh National park, Bhadra wildlife sanctuary, Bhadra Dam, Mullayanagiri Peak, Hanumana Gundi Falls, Hebbe Falls, Kallathigiri Falls</b>, Baba Budangiri (one of the most visited places in Baba Budan range), <b>Coffee Museum, Z point</b> ( one of the best place for trekking in Karnataka), Hirekolale lake, Ayyanakere Lake, Ballalarayana Durga fort, etc. this place offers a lot more which will make your trip unforgettable and Adventurous.<br/><br/> Apart from the wonder of nature this place also has many <b>religious sites</b> which enrich the cultural beauty of this place like <b>Kodandarama Temple</b> the temple that depicts Sri Ram and Lakshmana holding an arrow, <b>Sringeri Sharada Peetham</b> is the first-ever <b>Peeth established by Adi Shankaracharya</b>, Shri <b>Veenanarayan temple</b>, the shrine is dedicated to Lord Vishnu and showing their different incarnations and many more things to stimulate your spirituality.<br/><br/> <b>Camping, Mountain hikes, pilgrimage town</b> visits, <b>coffee plantation tours, boat riding</b> road, motorbiking reservoir, <b>jet-skiing</b>, and natural <b>spa</b> treatment are the sports activities that one can enjoy at this destination.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "DESTINATION  ARRIVAL - KEMMANAGUNDI EXPLORATION",
+            "brief": [
+              "Early morning reaches Chikmagalur, the ,\"coffee land of Karnataka\"",
+              "Check-in at the Hotel. Have breakfast, Out for Kemmanagundi to explore the hill stations.",
+              "Explore the mountain range, lush green gardens and valleys",
+              "Back to the hotel in the evening."
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "EXPLORATION",
+            "brief": [
+              "Have breakfast, and trek to Mullayanagiri peak at an elevation of 6,315 ft, to experience the beauty of nature",
+              "Now time to, visit Baba Budangiri, Jhari waterfall, Kavikal Gandhi",
+              "Back to the hotel in the evening."
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "TRANSFER TO BELUR, EVENING DEPARTURE TO BANGALORE",
+            "brief": [
+              "Have breakfast, leave the hotel",
+              "Drive for Belur",
+              "Known for its Hoysala workmanship. Marvel at the architecture",
+              "It's time for water sports activities such as Jet Ski, Speed Boat rides, Banana Boat, Bumper rides, Kayaking, and Cruise boats.",
+              "Visit Halebid and Chennakesava temple at Belur",
+              "Evening departure"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "img": "/img/MakeYourTripPossible_chikmagalur.png",
+    "bannerUrl": "/img/MakeYourTripPossible_chikmagalur_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "Chikmagalur-western-karnataka-solo-trip",
+    "toCategory": "solo-trip",
+    "price": 9999,
+    "label": "solo trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Chikmagalur, Western Karnataka",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<b>Chikmagalur or Chikmagaluru</b> was also known as the <b>“coffee land of India</b> '' a hill station destination in southern India that completely lies in <b>western ghats</b> and is popularly known for its coffee plantation. This destination is visited by thousands of people as <b>honeymoon</b> and holiday destinations. As Karnataka is the largest producer of coffee in India, the <b>hilly terrain</b> full of coffee plantations is one of the key glamours for tourists.<br/><br/> <b>Kudremukh National park, Bhadra wildlife sanctuary, Bhadra Dam, Mullayanagiri Peak, Hanumana Gundi Falls, Hebbe Falls, Kallathigiri Falls</b>, Baba Budangiri (one of the most visited places in Baba Budan range), <b>Coffee Museum, Z point</b> ( one of the best place for trekking in Karnataka), Hirekolale lake, Ayyanakere Lake, Ballalarayana Durga fort, etc. this place offers a lot more which will make your trip unforgettable and Adventurous.<br/><br/> Apart from the wonder of nature this place also has many <b>religious sites</b> which enrich the cultural beauty of this place like <b>Kodandarama Temple</b> the temple that depicts Sri Ram and Lakshmana holding an arrow, <b>Sringeri Sharada Peetham</b> is the first-ever <b>Peeth established by Adi Shankaracharya</b>, Shri <b>Veenanarayan temple</b>, the shrine is dedicated to Lord Vishnu and showing their different incarnations and many more things to stimulate your spirituality.<br/><br/> <b>Camping, Mountain hikes, pilgrimage town</b> visits, <b>coffee plantation tours, boat riding</b> road, motorbiking reservoir, <b>jet-skiing</b>, and natural <b>spa</b> treatment are the sports activities that one can enjoy at this destination.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "DESTINATION  ARRIVAL - KEMMANAGUNDI EXPLORATION",
+            "brief": [
+              "Early morning reaches Chikmagalur, the ,\"coffee land of Karnataka\"",
+              "Check-in at the Hotel. Have breakfast, Out for Kemmanagundi to explore the hill stations.",
+              "Explore the mountain range, lush green gardens and valleys",
+              "Back to the hotel in the evening."
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "EXPLORATION",
+            "brief": [
+              "Have breakfast, and trek to Mullayanagiri peak at an elevation of 6,315 ft, to experience the beauty of nature",
+              "Now time to, visit Baba Budangiri, Jhari waterfall, Kavikal Gandhi",
+              "Back to the hotel in the evening."
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "TRANSFER TO BELUR, EVENING DEPARTURE TO BANGALORE",
+            "brief": [
+              "Have breakfast, leave the hotel",
+              "Drive for Belur",
+              "Known for its Hoysala workmanship. Marvel at the architecture",
+              "It's time for water sports activities such as Jet Ski, Speed Boat rides, Banana Boat, Bumper rides, Kayaking, and Cruise boats.",
+              "Visit Halebid and Chennakesava temple at Belur",
+              "Evening departure"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "img": "/img/MakeYourTripPossible_chopta.png",
+    "bannerUrl": "/img/MakeYourTripPossible_chopta_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "chopta-chandrashila-deoria-tal-solo-trip",
+    "toCategory": "solo-trip",
+    "price": 6999,
+    "label": "solo trip",
+    "day": 3,
+    "night": 2,
+    "heading": "Chopta, Chandrashila, Deoria Tal",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<h4>Chopta</h4> <b>Chopta is a small village in Uttarakhand </b>Popularly known as <b>“Mini Switzerland”</b>. The area is surrounded by <b>lofty mountains</b> covered with <b>snow caps</b> most of the month of the year, at an <b>elevation of 8500 feet</b>. <br/><br/> The destination completely lies in the <b>Evergreen forest</b>, famous for <b>trekking to tungnath temple</b>, at an <b>elevation of 12000 feet</b>, trekking to <b>Chandrashila hill</b> which is always covered with snow most of the time. <b>Deoria Tal</b> is a perfect <b>spot for a photoshoot</b>, Kanchula Korak Musk Deer Sanctuary and much other sightseeing which will make your trip unforgettable.<br/><br/> <h4>Chandrashila</h4> <b>Chandrashila is a summit</b> at an <b>elevation of 12000 feet</b> from the mean sea level, Chandrashila means <b>Moonrock</b>. It is most popular for its trekking, to its summit. Many Himalayan summits like Nandadevi, Trisul, Kedar Peak, and Bandarpunch are visible from this site. This is the <b>place where Lord Ram meditated</b> after he gained a victory in the battle against Ravana.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI TO CHOPTA",
+            "brief": [
+              "Our journey will begin At 8 in the evening, from Delhi in an AC Transportation",
+              "Halt at Devprayag be a Witness to the beautiful confluence of Bhagirathi & Alaknanda"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "ACCLIMATIZATION & EXCURSION",
+            "brief": [
+              "Reach destination (chopta) around noon",
+              "Check in to your camps, Get yourself refreshed from the long journey",
+              "Afterwards, a delicious lunch will be served",
+              "Acclimatize and later in the evening go for the exploration of the local treasury",
+              "Have a delightful Dinner and Night's stay at the campsite"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "TREK TO TUNGNATH & CHANDRASHILA",
+            "brief": [
+              "Awake up in the picturesque valley, Be prepared for a mouthwatering breakfast",
+              "Start your trekking to Tungnath and Chandrashila to get the fascinating view of the sunrise from the mountains",
+              "From Tungnath to Chandrashila there is an upright ascent",
+              "Finally, You are at Chandrashila mountain peak which is called <b>'moonrock'</b>",
+              "Enjoy your fascinating time at the Chandrashila peak and thereafter trek back to Chopta by evening",
+              "Have a tasty Dinner and Nighttime stay"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "CHOPTA - DEORIA TAL - DEPARTURE",
+            "brief": [
+              "Wake up, in the lap of the snow-capped mighty mountains, and have a tasty breakfast",
+              "Thereafter leave the camp and walk towards Sari village (The entrance point of the Deoria Tal trek)",
+              "From Sari, initiate your hike toward Deoria Tal, it will be a 3km trek and will take around 1.5 hrs to reach the point",
+              "Later return to the starting point by noon and then depart to Delhi with a lot of unforgettable views and a lot of amazing memories with you"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "img": "/img/MakeYourTripPossible_kasol-tosh.png",
+    "bannerUrl": "/img/MakeYourTripPossible_kasol-tosh_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "kasol-tosh-solo-trip",
+    "toCategory": "solo-trip",
+    "price": 8999,
+    "label": "solo trip",
+    "day": 4,
+    "night": 3,
+    "heading": "Kasol, Tosh",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<h4>Kasol</h4> Valley is popularly known for sports, activities, and its <b>handicrafts products</b> including <b>Tibetan handicraft dresses</b>, Prayer wheels, Thangkas, stories and many more things.<br/><br/>  <b>Gurudwara Manikaran Sahib</b>,  Naina Bhagwati mandir, <b>Manikaran hot water spring, Parvati river</b> and many waterfalls make it a perfect destination.<br/><br/> <h4>Tosh</h4> <b>Tosh is a village in Himachal Pradesh</b>, at the <b>height of 7900 feet</b>, situated at the bank of the <b>Parvati river</b>. The village lies in <b>Parvati valley, Hilly terrain</b> and green lush natural greenery will surely make your trip memorable. The village has <b>scattered houses</b> and <b>snow-covered peaks</b>, this destination attracts tourists from all over the globe.<br/><br/> Tosh village, <b>Rudranaag, a snake-shaped waterfall</b>, Hill ice Guesthouse to experience stunning views of the mountain, The green <b>forest, Kheerganga waterfall</b>, incredible location to trek, Parvati valley, Biskeri slide and many more.<br/><br/> You can also enjoy the various <b>adventurous recreations</b> such as walking by the Parvati river, <b>trekking to Malana</b>, trekking to kheerganga, <b>spring water bath</b>, shopping in the local market, enjoying <b>local cuisine</b> and much more.<br/><br/> ",
+        "itinerary": [
+          {
+            "day": "Day 1",
+            "title": "Delhi To Kasol",
+            "brief": [
+              "We will depart for our destination at 6 pm from Delhi in an ACTransportion"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "Exploring Local sights and Cafe Hopping",
+            "brief": [
+              "Arrive at the destination (Kasol) in the morning, Check-in to the Accommodation, Get yourself refreshed and have a little leisure",
+              "Wander around the town, trek to Chalal. Bound into cafes during sundown and market exploration",
+              "Feel the calmness of destination seating around Bonfire with chilling Music under the billions of stars"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "Tosh Sightseeing & Camping",
+            "brief": [
+              "After having breakfast, let’s head toward Barshaini and afterwards to Tosh",
+              "Check in to the campsite. thereafter Outing to local places",
+              "Spot the mighty Himalayan ranges in all their renown",
+              "Chilling music, Bonfire, Dinner, and Night Stay at the campsite"
+            ]
+          },
+          {
+            "day": "Day 4",
+            "title": "Manikaran & Departure",
+            "brief": [
+              "After having a delicious breakfast, stroll back to the Tosh taxi stand and drive to Manikaran to visit Gurudwara Manikaran Sahib",
+              "Later on, Pass some time in Kasol before the departure to the Home destination in the evening"
+            ]
+          }
+        ],
+        "inclusion": [
+          "Two nights of homestay/camping accommodation.",
+          "Trekking",
+          "There were five meals in all: two meals on Day 1, two meals on Day 2, and one on Day 3.",
+          "Journey via AC Transportation",
+          "Local Sightseeing Guide while Visit"
+        ],
+        "exclusion": [
+          "Any Expense out of Pocket",
+          "Sports and Adventure Activities not included in the itinerary",
+          "Any Gate tickets/Entry fees",
+          "Any Snacks/ Drinks other than those provided",
+          "5% GST"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "img": "/img/MakeYourTripPossible_shimla-manali-kasol.png",
+    "bannerUrl": "/img/MakeYourTripPossible_shimla-manali-kasol_Banner.png",
+    "categoryImg": "/img/MakeYourTripPossible_solo_category.png",
+    "categoryBannerImg": "/img/MakeYourTripPossible_solo_category_banner.png",
+    "popularTrip": false,
+    "topCategoryTrip": false,
+    "to": "shimla-manali-kasol-solo-trip",
+    "toCategory": "solo-trip",
+    "price": 11999,
+    "label": "solo trip",
+    "day": 5,
+    "night": 4,
+    "heading": "Shimla, Manali, Kasol",
+    "dates": "March 25, March 26, March 27",
+    "start": "Delhi",
+    "end": "Delhi",
+    "details": [
+      {
+        "description": "<h4>Shimla</h4> <b>Shimla, the capital of Himachal</b> Pradesh, is the most visited <b>hill station</b> in India. The city is loved by people for their honeymoon destinations and family vacations. The city is recognized as a <b>World Heritage</b> site by UNESCO, for its unique cultural and geographical identity in 2008.<br/><br/> The city offers a lot of sightseeing like <b>The Ridge, Mall road</b> famous for its handicraft market, Viceregal lodge and <b>Botanical garden, Jakhu Hill famous temple</b>, Gaiety Theatre, Chadwick falls, Sheeshe wali Kothi known for its architect and history <b>Tibetan Refugee market</b>, and much more.<br/><br/> One can enjoy a lot of adventurous sports activities like <b>Ice Skating, Snow points, Jakhu Ropeway,  camping, Trekking,  River rafting, Toy train, Paragliding</b>, Pine forest walks, cycling etc. are the activities that one enjoys.<br/><br/> One can also enjoy shopping in the <b>local market for handicraft products</b>, Paintings, <b>terracotta items</b>, Himachal caps and hats, <b>Tibetan Jewellery</b>, wooden and traditional artefacts for your friends and family as a gift and home decoration.<br/><br/> <h4>Manali</h4> In a lifetime, we all want to have been a <b>Manali<b/> once either with friends or with family. Manali is the most liked <b>honeymoon and holiday destination for couples</b> and solo trips. At the end of <b>Kullu valley</b>, near the <b>Beas river</b>, this beautiful city is located.<br/><br/> <b>Lakes, grassland, a forest of deodar, a waterfall, a garden</b> and other picturesque sites make this destination more attractive to visitors.<br/><br/> Adventure and sports like <b>Paragliding, Rafting, Zorbing, Trekking, and Skiing</b> are the prominent activities of this place.<br/><br/> <h4>Kasol</h4> Valley is popularly known for sports, activities, and its <b>handicrafts products</b> including <b>Tibetan handicraft dresses</b>, Prayer wheels, Thangkas, stories and many more things.<br/><br/> <b>Gurudwara Manikaran Sahib</b>,  Naina Bhagwati mandir, <b>Manikaran hot water spring, Parvati river</b> and many waterfalls make it a perfect destination.<br/><br/>",
+        "itinerary": [
+          {
+            "day": "Day 0",
+            "title": "DELHI TO MANALI",
+            "brief": [
+              "We will begin our journey at 6 pm from Delhi in AC Transportation (Know the true value of time; snatch, seize, and enjoy every moment of it)"
+            ]
+          },
+          {
+            "day": "Day 1",
+            "title": "Manali",
+            "brief": [
+              "Arrival at destination (Manali) by morning, Check-In to Hotel",
+              "Get yourself refreshed and have a little rest",
+              "Afterwards, move out for sightseeing like the Mall Road, Hot water spring, Tibetan monastery, and  Vasishta temple",
+              "Later get back to the accommodation",
+              "At the night, have a delicious dinner and night's stay in the hotel"
+            ]
+          },
+          {
+            "day": "Day 2",
+            "title": "Solang Valley",
+            "brief": [
+              "After having a tasty breakfast at the hotel, now tight your waist for a full-day excursion to Solang Valley in the snowfields of mountains, and thereafter visit Van Vihar and The Club House",
+              "Later get back to the accommodation",
+              "At night, have a delicious dinner and a night's stay in the hotel"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "Manali- Kasol",
+            "brief": [
+              "Wake up on the lap of the snow-capped mountain and have breakfast and later move to visit Kasol",
+              "Arrive in Kasol and start exploring the local market of Kasol and later roll towards Manikaran gurudwara",
+              "Later get back to the accommodation",
+              "At night, have a delicious dinner and a night's stay in the hotel"
+            ]
+          },
+          {
+            "day": "Day 4",
+            "title": "Shimla",
+            "brief": [
+              "Get enter into Shimla, check in to the hotel, Get yourself revitalise",
+              "Stroll out to see Mall Road, Christ Church and Jakhoo Temple etc",
+              "Then Say a  sweet bye to your trip with bunches of memories and treasures of love",
+              "Later get back to the accommodation",
+              "At the night have a mouthwatering dinner and night's stay in the hotel"
+            ]
+          },
+          {
+            "day": "Day 4",
+            "title": "Checkout",
+            "brief": [
+              "Wake up in the valley blowing calmness and happiness and Have Breakfast",
+              "Leave the accommodation and afterwards shop in the local market",
+              "Later departing back to Delhi with plenty of recollections"
             ]
           }
         ],

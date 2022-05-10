@@ -48,6 +48,7 @@ const SearchBanner = (props) => {
                     >
                       <Link to={"/trip/" + data.to}>
                         <li>
+                          <i class="fad fa-suitcase" />{" "}
                           {data.heading + " " + Capitalization(data.label)}
                         </li>
                       </Link>

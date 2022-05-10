@@ -24,7 +24,7 @@ const TitleBanner = (props) => {
           <a href="/inquiry-page">
             <button className="btn ccGegr">Trip Itineray</button>
           </a>
-          <a href="/inquiry-page">
+          <a href="/book-now">
             <button className="btn ccGegr">Book Now</button>
           </a>
         </div>

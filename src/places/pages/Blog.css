@@ -1,0 +1,15 @@
+.blog-page {
+  padding: 2em 0;
+}
+article.blog-article {
+  background: #f8f6f5;
+  padding: 1em 2em;
+}
+
+article.blog-article h1 {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0 0 20px 0;
+  color: #000;
+}

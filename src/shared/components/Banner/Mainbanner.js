@@ -8,6 +8,8 @@ const MainBanner = (props) => {
     zIndex: 1,
     width: "100%",
     height: "auto",
+    backgroundPosition: "center",
+    backgroundSize: "cover",
   };
   return (
     <header

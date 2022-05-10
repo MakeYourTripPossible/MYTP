@@ -15,6 +15,8 @@ import blogs from "../../data/latest-blogs.json";
 import testimonial from "../../data/testimonial.json";
 import whyus from "../../data/why-us.json";
 import "./Places.css";
+import VideoContent from "../../shared/components/UIElements/VideoContent";
+import PlaceBlog from "./PlaceBlog";
 const Places = (props) => {
   const { pathname } = props.location;
   let { tripTitle } = useParams();
@@ -23,8 +25,8 @@ const Places = (props) => {
   let bgUrl =
     categoryTitle === undefined
       ? pathname === "/blogs"
-        ? "/img/MakeYourTripPossible_blogs.jpg"
-        : "/img/MakeYourTripPossible_Mainbanner.jpg"
+        ? "/img/MakeYourTripPossible_blogs.png"
+        : "/img/MakeYourTripPossible_Mainbanner.png"
       : allPlaces.filter((data) => data.toCategory === categoryTitle)[0]
           .categoryBannerImg;
   let defaultValue = {
@@ -78,7 +80,12 @@ const Places = (props) => {
                 <TripSection title="Description" trip={data} />
               </div>
               <div className="col-sm-12 col-md-3 col-lg-3">
-                <Contact price={data.price} destination={data.to} />
+                <Contact price={data.price} destination={data.to} {...props} />
+                <VideoContent
+                  title="Our Reviews"
+                  className="contact-box"
+                  id="M6JRswP-l7U"
+                />
               </div>
             </div>
           </div>
@@ -100,6 +107,11 @@ const Places = (props) => {
       {pathname === "/" && (
         <CommonSection heading="Testimonials">
           <Testimonials data={testimonial} />
+        </CommonSection>
+      )}
+      {pathname === "/" && (
+        <CommonSection heading="Blogs">
+          <PlaceBlog data={blogs.filter((b) => b.isHomeBlog)} />
         </CommonSection>
       )}
       {pathname === "/blogs" && <Blogs data={blogs} />}

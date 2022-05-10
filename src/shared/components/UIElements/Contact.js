@@ -4,7 +4,10 @@ import { dataContext } from "./../../context/data-context";
 import { RemoveDash } from "../../utils/HelperMethod";
 import "./Contact.css";
 const Contact = (props) => {
-  let trip = RemoveDash(props.destination);
+  const { pathname } = props.location;
+  if (props.destination) {
+    var trip = RemoveDash(props.destination);
+  }
   const [data, setData] = useState({
     firstName: "",
     phone: "",
@@ -21,7 +24,7 @@ const Contact = (props) => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/mytp/google_sheets/qgcJUNOfTDWzEnOT?tabId=Sheet1",
+        "https://v1.nocodeapi.com/mytp/google_sheets/qgcJUNOfTDWzEnOT?tabId=tripBooking",
         {
           method: "POST",
           headers: {
@@ -52,12 +55,16 @@ const Contact = (props) => {
   const notify = (message) => toast.success(`${message}`);
   return (
     <div className="contact-box">
-      <h3>
-        <span>{props.price}</span>/person
-      </h3>
-      <p>
-        <sup>*</sup>GST @5% Extra
-      </p>
+      {props.pathname !== undefined && props.pathname !== "/book-now" && (
+        <h3>
+          <span>{props.price}</span>/person
+        </h3>
+      )}
+      {props.pathname !== undefined && !pathname.include("/blogs/") && (
+        <p>
+          <sup>*</sup>GST @5% Extra
+        </p>
+      )}
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <input

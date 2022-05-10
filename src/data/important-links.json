@@ -5,6 +5,10 @@
     "title": "Terms & Conditions"
   },
   { "id": "imp3", "link": "/help-&-support", "title": "Help & Support" },
-  { "id": "imp5", "link": "/privacy-policy", "title": "Privacy Policy" },
+  {
+    "id": "imp5",
+    "link": "/cancellation-policy",
+    "title": "Cancellation Policy"
+  },
   { "id": "imp6", "link": "/community", "title": "Community & Forum" }
 ]

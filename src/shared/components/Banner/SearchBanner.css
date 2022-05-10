@@ -120,6 +120,15 @@
   background-color: white;
   border-radius: 5px;
 }
+.container .search-data-box li i {
+  color: var(--theme-color);
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .container .search-data-box {
+    width: 95%;
+  }
+}
 
 .container .search-data-box li {
   list-style: none;
