@@ -45,7 +45,12 @@ const App = () => {
       <Route
         path="/book-now"
         exact
-        render={(props) => <BookNow {...props} />}
+        render={(props) => <BookNow sheet="book-now" {...props} />}
+      />
+      <Route
+        path="/customize-trip"
+        exact
+        render={(props) => <BookNow sheet="customize-trip" {...props} />}
       />
       <Route
         path="/terms-and-condition"

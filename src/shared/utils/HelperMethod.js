@@ -41,3 +41,8 @@ export function AtTheTop() {
 export function ToLink(title) {
   return title.toLowerCase().split(" ").join("-");
 }
+
+export function ToPricing(price) {
+  var internationalNumberFormat = new Intl.NumberFormat("en-US");
+  return internationalNumberFormat.format(price);
+}

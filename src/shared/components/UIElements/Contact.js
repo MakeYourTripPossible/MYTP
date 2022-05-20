@@ -1,10 +1,13 @@
 import React, { useContext, useState } from "react";
 import { toast } from "react-toastify";
 import { dataContext } from "./../../context/data-context";
-import { RemoveDash } from "../../utils/HelperMethod";
+import { RemoveDash, ToPricing } from "../../utils/HelperMethod";
 import "./Contact.css";
 const Contact = (props) => {
-  const { pathname } = props.location;
+  let pathname = window.location.href.replace(
+    "http://localhost:3000" || "https://makeyourtrippossible.com",
+    ""
+  );
   if (props.destination) {
     var trip = RemoveDash(props.destination);
   }
@@ -53,14 +56,17 @@ const Contact = (props) => {
     }
   };
   const notify = (message) => toast.success(`${message}`);
+  console.log();
   return (
     <div className="contact-box">
-      {props.pathname !== undefined && props.pathname !== "/book-now" && (
-        <h3>
-          <span>{props.price}</span>/person
-        </h3>
-      )}
-      {props.pathname !== undefined && !pathname.include("/blogs/") && (
+      {pathname !== undefined &&
+        pathname !== "/book-now" &&
+        !pathname.includes("/blogs/") && (
+          <h3>
+            <span>{ToPricing(props.price)}</span>/person
+          </h3>
+        )}
+      {pathname !== undefined && !pathname.includes("/blogs/") && (
         <p>
           <sup>*</sup>GST @5% Extra
         </p>

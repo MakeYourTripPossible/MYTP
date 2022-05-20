@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
+import { Capitalization } from "../../utils/HelperMethod";
 import "./BookNow.css";
 const BookNow = (props) => {
   const [data, setData] = useState({
@@ -18,7 +19,7 @@ const BookNow = (props) => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/mytp/google_sheets/qgcJUNOfTDWzEnOT?tabId=bookNow",
+        `https://v1.nocodeapi.com/mytp/google_sheets/qgcJUNOfTDWzEnOT?tabId=${props.sheet}`,
         {
           method: "POST",
           headers: {
@@ -57,7 +58,9 @@ const BookNow = (props) => {
   const notify = (message) => toast.success(`${message}`);
   return (
     <div className="container book-now-box book-now-background">
-      <h3 className="tittle text-center heading-bottom-line pt-4">Book Now</h3>
+      <h3 className="tittle text-center heading-bottom-line pt-4">
+        {Capitalization(props.sheet.split("-").join(" "))}
+      </h3>
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12">
           <form onSubmit={handleSubmit}>
@@ -76,7 +79,7 @@ const BookNow = (props) => {
                     placeholder="Enter Name"
                     value={fname}
                     onChange={handleBookNow}
-                    required=""
+                    required
                   />
                 </div>
               </div>
@@ -96,7 +99,7 @@ const BookNow = (props) => {
                     placeholder="Enter Phone number"
                     value={phone}
                     onChange={handleBookNow}
-                    required=""
+                    required
                   />
                 </div>
               </div>
@@ -116,7 +119,7 @@ const BookNow = (props) => {
                     placeholder="Enter email"
                     value={email}
                     onChange={handleBookNow}
-                    required=""
+                    required
                   />
                 </div>
               </div>
@@ -136,7 +139,7 @@ const BookNow = (props) => {
                     placeholder="Enter number of Traveller"
                     value={traveller}
                     onChange={handleBookNow}
-                    required=""
+                    required
                   />
                 </div>
               </div>
@@ -156,7 +159,7 @@ const BookNow = (props) => {
                     placeholder="Enter your Destination"
                     value={destination}
                     onChange={handleBookNow}
-                    required=""
+                    required
                   />
                 </div>
               </div>

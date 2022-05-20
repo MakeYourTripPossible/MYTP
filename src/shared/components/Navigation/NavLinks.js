@@ -69,7 +69,7 @@ const NavLinks = (props) => {
           className={handleActiveClass("customizetrip")}
           onClick={() => handleActiveTab("customizetrip")}
         >
-          <Link to="/custom-trip">
+          <Link to="/customize-trip">
             <span className="fad fa-pencil-ruler" aria-hidden="true" />
             &nbsp;Customize Trip
           </Link>

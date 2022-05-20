@@ -80,7 +80,7 @@ const Places = (props) => {
                 <TripSection title="Description" trip={data} />
               </div>
               <div className="col-sm-12 col-md-3 col-lg-3">
-                <Contact price={data.price} destination={data.to} {...props} />
+                <Contact {...props} price={data.price} destination={data.to} />
                 <VideoContent
                   title="Our Reviews"
                   className="contact-box"

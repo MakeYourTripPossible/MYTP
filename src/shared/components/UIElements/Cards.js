@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AtTheTop, Capitalization } from "../../utils/HelperMethod";
+import { AtTheTop, Capitalization, ToPricing } from "../../utils/HelperMethod";
 import "./Cards.css";
 const Cards = (props) => {
   if (props.TagCatagory) {
@@ -32,7 +32,7 @@ const Cards = (props) => {
                     <div className="caption">
                       <p className="caption-text">
                         <i className="fas fa-rupee-sign" /> Starting @ INR{" "}
-                        {card.price}
+                        {ToPricing(card.price)}
                         /-
                       </p>
                       <div style={{ clear: "both" }}></div>
@@ -69,7 +69,8 @@ const Cards = (props) => {
                     />
                     <div className="caption">
                       <p className="caption-text-left">
-                        <i className="fas fa-rupee-sign" /> {card.price}
+                        <i className="fas fa-rupee-sign" />{" "}
+                        {ToPricing(card.price)}
                       </p>
                       <p className="caption-text-right">
                         <i className="fas fa-sun" /> {card.day} Days &nbsp;
@@ -90,7 +91,8 @@ const Cards = (props) => {
                   </p>
                   <p className="card-rupee">
                     <span>Start at</span> &nbsp;
-                    <i className="fad fa-rupee-sign" /> {card.price}/-
+                    <i className="fad fa-rupee-sign" /> {ToPricing(card.price)}
+                    /-
                   </p>
                 </div>
               </div>
