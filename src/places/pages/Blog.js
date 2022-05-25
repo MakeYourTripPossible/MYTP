@@ -22,7 +22,7 @@ const Blog = (props) => {
       />
       <div className="container blog-page">
         <div className="row">
-          <div className="col-9">
+          <div className="col-12 col-sm-9 col-md-7">
             <article className="blog-article">
               {/* <h1>{Capitalization(RemoveDash(blogTitle))} Blog</h1> */}
               <div className="blog-content">
@@ -30,7 +30,7 @@ const Blog = (props) => {
               </div>
             </article>
           </div>
-          <div className="col-3">
+          <div className="col-12 col-sm-3 col-md-5">
             <Contact {...props} />
           </div>
         </div>

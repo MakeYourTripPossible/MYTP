@@ -84,7 +84,7 @@ const Places = (props) => {
                 <VideoContent
                   title="Our Reviews"
                   className="contact-box"
-                  id="M6JRswP-l7U"
+                  id={"gyFvRPh64Y8"}
                 />
               </div>
             </div>

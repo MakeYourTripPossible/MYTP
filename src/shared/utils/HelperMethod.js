@@ -46,3 +46,9 @@ export function ToPricing(price) {
   var internationalNumberFormat = new Intl.NumberFormat("en-US");
   return internationalNumberFormat.format(price);
 }
+
+export function RandomVideo() {
+  var videoId = ["gyFvRPh64Y8", "r962efLLOvA"];
+  var randomIndex = Math.floor(Math.random() * videoId.length);
+  return videoId[randomIndex];
+}

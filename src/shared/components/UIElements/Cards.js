@@ -23,7 +23,7 @@ const Cards = (props) => {
                   <div className="img-card">
                     <img
                       src={card.categoryImg}
-                      alt={card.alt}
+                      alt={card.heading}
                       className="img-card-item img-card-item-hover"
                     />
                     <h4 className="card-label">
@@ -64,7 +64,7 @@ const Cards = (props) => {
                   <Link to={"/trip/" + card.to} onClick={() => AtTheTop()}>
                     <img
                       src={card.img}
-                      alt={card.alt}
+                      alt={card.heading}
                       className="img-card-item"
                     />
                     <div className="caption">
