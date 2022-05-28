@@ -9,8 +9,9 @@ const BookNow = (props) => {
     email: "",
     traveller: "",
     destination: "",
+    ourService: props.serviceCategory,
   });
-  const { fname, phone, email, traveller, destination } = data;
+  const { fname, phone, email, traveller, destination, ourService } = data;
 
   const handleBookNow = (e) => {
     setData({ ...data, [e.target.name]: e.target.value });
@@ -32,6 +33,7 @@ const BookNow = (props) => {
               email,
               traveller,
               destination,
+              ourService,
               new Date().toLocaleString(),
             ],
           ]),
@@ -48,6 +50,7 @@ const BookNow = (props) => {
         email: "",
         traveller: "",
         destination: "",
+        ourService: "",
       });
     } catch (error) {
       notify(

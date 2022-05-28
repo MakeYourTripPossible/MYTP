@@ -19,7 +19,7 @@ const CommonSection = (props) => {
   }
   if (!props.SectionTrip) {
     return (
-      <section className="about" id="Why-us">
+      <section className="common-section" id="common-section">
         <div className="container">
           <div className="inner-sec-w3pvt">
             <h3 className="tittle text-center heading-bottom-line ">

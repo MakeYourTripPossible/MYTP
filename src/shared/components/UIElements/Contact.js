@@ -63,7 +63,8 @@ const Contact = (props) => {
         pathname !== "/book-now" &&
         !pathname.includes("/blogs/") && (
           <h3>
-            <span>{ToPricing(props.price)}</span>/person
+            <span>{ToPricing(props.price)}</span>/
+            {props.price > 20000 && props.isCouple ? "couple" : "person"}
           </h3>
         )}
       {pathname !== undefined && !pathname.includes("/blogs/") && (

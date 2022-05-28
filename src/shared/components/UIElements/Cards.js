@@ -5,101 +5,123 @@ import "./Cards.css";
 const Cards = (props) => {
   if (props.TagCatagory) {
     return (
-      <div className="container mt-5 heading-style">
-        <h2 className="text-center heading-bottom-line">
-          {props.PackageGroup}
-        </h2>
-        <div className="container-fluid my-5">
-          <div className="row">
-            {props.cards.map((card) => (
-              <div
-                key={card.id + "-price"}
-                className="col-sm-12 col-md-6 col-lg-3 my-3"
+      // <div className="container mt-5 heading-style">
+      //   <h2 className="text-center heading-bottom-line">
+      //     {props.PackageGroup}
+      //   </h2>
+      <div className="container-fluid my-5">
+        <div className="row">
+          {props.cards.map((card) => (
+            <div
+              key={card.id + "-price"}
+              className={`col-sm-12 col-md-6 col-lg-${
+                props.toPath !== "category" ? 4 : 3
+              } my-3`}
+            >
+              <Link
+                to={
+                  props.toPath === "category"
+                    ? "/category/" + card.toCategory
+                    : props.toPath
+                }
+                onClick={() => {
+                  AtTheTop();
+                  props.setServiceCategory(card.label);
+                }}
               >
-                <Link
-                  to={"/category/" + card.toCategory}
-                  onClick={() => AtTheTop()}
-                >
-                  <div className="img-card">
-                    <img
-                      src={card.categoryImg}
-                      alt={card.heading}
-                      className="img-card-item img-card-item-hover"
-                    />
-                    <h4 className="card-label">
-                      <span>{Capitalization(card.label)} </span>
-                    </h4>
-                    <div className="caption">
+                <div className="img-card">
+                  <img
+                    src={card.categoryImg}
+                    alt={card.heading}
+                    className="img-card-item img-card-item-hover"
+                  />
+                  <h4 className="card-label">
+                    <span>{Capitalization(card.label)} </span>
+                  </h4>
+                  <div className="caption">
+                    {props.AtPrice && (
                       <p className="caption-text">
                         <i className="fas fa-rupee-sign" /> Starting @ INR{" "}
                         {ToPricing(card.price)}
                         /-
                       </p>
-                      <div style={{ clear: "both" }}></div>
-                    </div>
+                    )}
+                    {!props.AtPrice && (
+                      <p className="caption-text">
+                        <q
+                          style={{
+                            boxShadow:
+                              "rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px",
+                          }}
+                        >
+                          {card.tagLine}
+                        </q>
+                      </p>
+                    )}
+                    <div style={{ clear: "both" }}></div>
                   </div>
-                </Link>
-              </div>
-            ))}
-          </div>
+                </div>
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
+      // </div>
     );
   }
 
   if (props.DetailCatagory) {
     return (
-      <div className="container mt-5 heading-style">
-        <h2 className="text-center heading-bottom-line">
-          {props.PackageGroup}
-        </h2>
-        <div className="container my-5">
-          <div className="row">
-            {props.cards.map((card) => (
-              <div
-                key={card.id + "-detail"}
-                className="col-lg-4 col-md-6 col-sm-12 px-3"
-              >
-                <div className="img-detail-card">
-                  <Link to={"/trip/" + card.to} onClick={() => AtTheTop()}>
-                    <img
-                      src={card.img}
-                      alt={card.heading}
-                      className="img-card-item"
-                    />
-                    <div className="caption">
-                      <p className="caption-text-left">
-                        <i className="fas fa-rupee-sign" />{" "}
-                        {ToPricing(card.price)}
-                      </p>
-                      <p className="caption-text-right">
-                        <i className="fas fa-sun" /> {card.day} Days &nbsp;
-                        <i className="fas fa-moon" /> {card.night} Night
-                      </p>
-                      <div style={{ clear: "both" }}></div>
-                    </div>
-                  </Link>
-                </div>
-                <div className="card-detail-box">
-                  <p className="card-date">
-                    {/* <i className="fad fa-calendar-alt" /> &nbsp; */}
-                    {/* {card.dates}s */}
-                  </p>
-                  <p className="card-heading">
-                    <i className="fad fa-map-marker-alt" /> &nbsp;{" "}
-                    {card.heading}
-                  </p>
-                  <p className="card-rupee">
-                    <span>Start at</span> &nbsp;
-                    <i className="fad fa-rupee-sign" /> {ToPricing(card.price)}
-                    /-
-                  </p>
-                </div>
+      // <div className="container mt-5 heading-style">
+      //   <h2 className="text-center heading-bottom-line">
+      //     {props.PackageGroup}
+      //   </h2>
+      <div className="container my-5">
+        <div className="row">
+          {props.cards.map((card) => (
+            <div
+              key={card.id + "-detail"}
+              className="col-lg-4 col-md-6 col-sm-12 px-3"
+            >
+              <div className="img-detail-card">
+                <Link to={"/trip/" + card.to} onClick={() => AtTheTop()}>
+                  <img
+                    src={card.img}
+                    alt={card.heading}
+                    className="img-card-item"
+                  />
+                  <div className="caption">
+                    <p className="caption-text-left">
+                      <i className="fas fa-rupee-sign" />{" "}
+                      {ToPricing(card.price)}
+                    </p>
+                    <p className="caption-text-right">
+                      <i className="fas fa-sun" /> {card.day} Days &nbsp;
+                      <i className="fas fa-moon" /> {card.night} Night
+                    </p>
+                    <div style={{ clear: "both" }}></div>
+                  </div>
+                </Link>
               </div>
-            ))}
-          </div>
+              <div className="card-detail-box">
+                <p className="card-date">
+                  {/* <i className="fad fa-calendar-alt" /> &nbsp; */}
+                  {/* {card.dates}s */}
+                </p>
+                <p className="card-heading">
+                  <i className="fad fa-map-marker-alt" /> &nbsp; {card.heading}
+                </p>
+                <p className="card-rupee">
+                  <span>Start at</span> &nbsp;
+                  <i className="fad fa-rupee-sign" /> {ToPricing(card.price)}
+                  /-
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
+      // </div>
     );
   }
 };

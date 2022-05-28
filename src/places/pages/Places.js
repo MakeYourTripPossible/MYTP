@@ -21,7 +21,7 @@ const Places = (props) => {
   const { pathname } = props.location;
   let { tripTitle } = useParams();
   let { categoryTitle } = useParams();
-  const { allPlaces } = useContext(dataContext);
+  const { allPlaces, allService } = useContext(dataContext);
   let bgUrl =
     categoryTitle === undefined
       ? pathname === "/blogs"
@@ -42,6 +42,12 @@ const Places = (props) => {
     categoryTitle !== undefined
       ? Capitalization(RemoveDash(categoryTitle))
       : "Popular Trips";
+  let isCouple =
+    data.categoryImg !== undefined &&
+    data.id !== 78 &&
+    (data.categoryImg.includes("honeymoon_category") ||
+      data.categoryImg.includes("international_category"));
+
   return (
     <>
       <MainBanner
@@ -53,23 +59,30 @@ const Places = (props) => {
       {tripTitle === undefined &&
         (categoryTitle === undefined || pathname === "/") &&
         pathname !== "/blogs" && (
-          <Cards
-            TagCatagory
-            PackageGroup={"Category"}
-            cards={allPlaces.filter((card) => card.topCategoryTrip)}
-          />
+          <CommonSection heading="Category">
+            <Cards
+              TagCatagory
+              AtPrice
+              toPath={"category"}
+              // PackageGroup={"Category"}
+              cards={allPlaces.filter((card) => card.topCategoryTrip)}
+            />
+          </CommonSection>
         )}
       {tripTitle === undefined &&
         (categoryTitle !== undefined || pathname === "/") && (
-          <Cards
-            DetailCatagory
-            PackageGroup={categoryTrpTitle}
-            cards={allPlaces.filter((card) =>
-              categoryTitle !== undefined
-                ? card.toCategory === categoryTitle
-                : card.popularTrip
-            )}
-          />
+          <CommonSection heading={categoryTrpTitle}>
+            <Cards
+              DetailCatagory
+              AtPrice
+              // PackageGroup={categoryTrpTitle}
+              cards={allPlaces.filter((card) =>
+                categoryTitle !== undefined
+                  ? card.toCategory === categoryTitle
+                  : card.popularTrip
+              )}
+            />
+          </CommonSection>
         )}
       {tripTitle !== undefined && pathname !== "/" && (
         <div className="weekend-details">
@@ -80,7 +93,12 @@ const Places = (props) => {
                 <TripSection title="Description" trip={data} />
               </div>
               <div className="col-sm-12 col-md-3 col-lg-3">
-                <Contact {...props} price={data.price} destination={data.to} />
+                <Contact
+                  {...props}
+                  isCouple={isCouple}
+                  price={data.price}
+                  destination={data.to}
+                />
                 <VideoContent
                   title="Our Reviews"
                   className="contact-box"
@@ -115,6 +133,18 @@ const Places = (props) => {
         </CommonSection>
       )}
       {pathname === "/blogs" && <Blogs data={blogs} />}
+      {tripTitle === undefined &&
+        (categoryTitle === undefined || pathname === "/") &&
+        pathname !== "/blogs" && (
+          <CommonSection heading="Our Services">
+            <Cards
+              TagCatagory
+              toPath={"book-now"}
+              cards={allService}
+              setServiceCategory={props.setServiceCategory}
+            />
+          </CommonSection>
+        )}
     </>
   );
 };

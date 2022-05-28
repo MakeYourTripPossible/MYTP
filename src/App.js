@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +13,7 @@ import MainFooterNavigation from "./shared/components/Footer/MainFooterNavigatio
 import contactLinks from "./data/contact-links.json";
 import allPlaceData from "./data/all-places.json";
 import allBlogData from "./data/latest-blogs.json";
+import allServiceData from "./data/our-service.json";
 import Places from "./places/pages/Places";
 import NotFound from "./shared/components/UIElements/NotFound";
 import "./shared/css/style.css";
@@ -23,9 +24,16 @@ import Blog from "./places/pages/Blog";
 import Policy from "./other/Pages/Policy";
 
 const App = () => {
+  const [serviceCategory, setServiceCategory] = useState("");
   let routes = (
     <Switch>
-      <Route path="/" exact render={(props) => <Places {...props} />} />
+      <Route
+        path="/"
+        exact
+        render={(props) => (
+          <Places setServiceCategory={setServiceCategory} {...props} />
+        )}
+      />
       <Route
         path="/category/:categoryTitle"
         exact
@@ -45,7 +53,13 @@ const App = () => {
       <Route
         path="/book-now"
         exact
-        render={(props) => <BookNow sheet="book-now" {...props} />}
+        render={(props) => (
+          <BookNow
+            sheet="book-now"
+            serviceCategory={serviceCategory}
+            {...props}
+          />
+        )}
       />
       <Route
         path="/customize-trip"
@@ -73,6 +87,8 @@ const App = () => {
         contacts: contactLinks,
         allPlaces: allPlaceData,
         allBlogs: allBlogData,
+        allService: allServiceData,
+        serviceType: "",
       }}
     >
       <Router>
