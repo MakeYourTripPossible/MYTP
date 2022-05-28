@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AtTheTop, Capitalization, ToPricing } from "../../utils/HelperMethod";
+import {
+  AtTheTop,
+  Capitalization,
+  RemoveDash,
+  ToPricing,
+} from "../../utils/HelperMethod";
 import "./Cards.css";
 const Cards = (props) => {
   if (props.TagCatagory) {
@@ -15,19 +20,16 @@ const Cards = (props) => {
             <div
               key={card.id + "-price"}
               className={`col-sm-12 col-md-6 col-lg-${
-                props.toPath !== "category" ? 4 : 3
+                props.linkPath !== "category" ? 4 : 3
               } my-3`}
             >
               <Link
                 to={
-                  props.toPath === "category"
-                    ? "/category/" + card.toCategory
-                    : props.toPath
+                  props.linkPath !== "category"
+                    ? props.linkPath + card.label
+                    : "/category/" + card.toCategory
                 }
-                onClick={() => {
-                  AtTheTop();
-                  props.setServiceCategory(card.label);
-                }}
+                onClick={() => AtTheTop()}
               >
                 <div className="img-card">
                   <img
@@ -36,7 +38,7 @@ const Cards = (props) => {
                     className="img-card-item img-card-item-hover"
                   />
                   <h4 className="card-label">
-                    <span>{Capitalization(card.label)} </span>
+                    <span>{Capitalization(RemoveDash(card.label))} </span>
                   </h4>
                   <div className="caption">
                     {props.AtPrice && (

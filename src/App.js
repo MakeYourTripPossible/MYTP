@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,16 +24,9 @@ import Blog from "./places/pages/Blog";
 import Policy from "./other/Pages/Policy";
 
 const App = () => {
-  const [serviceCategory, setServiceCategory] = useState("");
   let routes = (
     <Switch>
-      <Route
-        path="/"
-        exact
-        render={(props) => (
-          <Places setServiceCategory={setServiceCategory} {...props} />
-        )}
-      />
+      <Route path="/" exact render={(props) => <Places {...props} />} />
       <Route
         path="/category/:categoryTitle"
         exact
@@ -53,13 +46,12 @@ const App = () => {
       <Route
         path="/book-now"
         exact
-        render={(props) => (
-          <BookNow
-            sheet="book-now"
-            serviceCategory={serviceCategory}
-            {...props}
-          />
-        )}
+        render={(props) => <BookNow sheet="book-now" {...props} />}
+      />
+      <Route
+        path="/book-now/:bookNowTitle"
+        exact
+        render={(props) => <BookNow sheet="book-now" {...props} />}
       />
       <Route
         path="/customize-trip"

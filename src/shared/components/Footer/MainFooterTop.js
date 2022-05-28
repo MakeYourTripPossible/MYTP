@@ -21,7 +21,7 @@ const MainFooterTop = () => {
         <div className="col-12 col-md-6 col-lg-3">
           <FooterLinks ContactLinks Title="Quick Contact" />
 
-          <FooterLinks LatestTrips Title="Latest Trips" />
+          {/* <FooterLinks LatestTrips Title="Latest Trips" /> */}
         </div>
       </div>
     </div>

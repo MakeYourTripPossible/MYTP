@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "label": "family Trip",
+    "label": "family-trip",
     "categoryImg": "https://img.freepik.com/free-photo/cute-family-playing-summer-field_1157-37659.jpg",
     "tagLine": "Find what brings you joy and go there"
   },
   {
     "id": 2,
-    "label": "office Trip",
+    "label": "corporate-trip",
     "categoryImg": "https://img.freepik.com/free-photo/business-man-woman-are-going-business-trip_1150-2983.jpg",
     "tagLine": "Make it meaningful and memorable."
   },
   {
     "id": 3,
-    "label": "college/School Trip",
+    "label": "college/School-trip",
     "categoryImg": "https://img.freepik.com/free-photo/group-four-indian-teen-male-students-classmates-spend-time-together_627829-5205.jpg",
     "tagLine": "Live life to the fullest, live it to the world!"
   }

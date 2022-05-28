@@ -19,8 +19,7 @@ import VideoContent from "../../shared/components/UIElements/VideoContent";
 import PlaceBlog from "./PlaceBlog";
 const Places = (props) => {
   const { pathname } = props.location;
-  let { tripTitle } = useParams();
-  let { categoryTitle } = useParams();
+  let { tripTitle, categoryTitle } = useParams();
   const { allPlaces, allService } = useContext(dataContext);
   let bgUrl =
     categoryTitle === undefined
@@ -63,7 +62,7 @@ const Places = (props) => {
             <Cards
               TagCatagory
               AtPrice
-              toPath={"category"}
+              linkPath={"category"}
               // PackageGroup={"Category"}
               cards={allPlaces.filter((card) => card.topCategoryTrip)}
             />
@@ -137,12 +136,7 @@ const Places = (props) => {
         (categoryTitle === undefined || pathname === "/") &&
         pathname !== "/blogs" && (
           <CommonSection heading="Our Services">
-            <Cards
-              TagCatagory
-              toPath={"book-now"}
-              cards={allService}
-              setServiceCategory={props.setServiceCategory}
-            />
+            <Cards TagCatagory linkPath={"/book-now/"} cards={allService} />
           </CommonSection>
         )}
     </>

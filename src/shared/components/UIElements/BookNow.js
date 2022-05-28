@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { Capitalization } from "../../utils/HelperMethod";
 import "./BookNow.css";
+import { useParams } from "react-router-dom";
 const BookNow = (props) => {
+  const { bookNowTitle } = useParams();
   const [data, setData] = useState({
     fname: "",
     phone: "",
     email: "",
     traveller: "",
     destination: "",
-    ourService: props.serviceCategory,
+    ourService: bookNowTitle,
   });
   const { fname, phone, email, traveller, destination, ourService } = data;
 

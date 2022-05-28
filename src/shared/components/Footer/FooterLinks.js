@@ -3,10 +3,8 @@ import important_links from "../../../data/important-links.json";
 import Trip_Widget from "../../../data/trip-widget.json";
 import latest_blogs from "../../../data/latest-blogs.json";
 import { dataContext } from "../../context/data-context";
-import { Link } from "react-router-dom";
-import { AtTheTop } from "../../utils/HelperMethod";
 const FooterLinks = (props) => {
-  const { allPlaces, contacts } = useContext(dataContext);
+  const { contacts } = useContext(dataContext);
   if (props.ImpLinks) {
     return (
       <div className="kilimanjaro_part m-top-15">
@@ -132,6 +130,18 @@ const FooterLinks = (props) => {
       <div className="kilimanjaro_part">
         <h5>{props.Title}</h5>
         <div className="kilimanjaro_single_contact_info">
+          <h5>Address:</h5>
+          <ul className="top-right-info">
+            <li className="pb-2">
+              <a href="https://goo.gl/maps/s9aD7wwk1VM2" className="text-white">
+                <i className="fad fa-map-marked-alt top-nav-icon" />
+                &nbsp;Cowork Delhi 101, Street no. 15, Khudi Ram Bose Marg,
+                Pratap Nagar, Mayur Vihar Phase 1, New Delhi, Delhi 110091
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="kilimanjaro_single_contact_info  mt-5">
           <h5>Phone:</h5>
           <ul className="top-right-info">
             <li className="my-1 pb-2">
@@ -167,24 +177,24 @@ const FooterLinks = (props) => {
     );
   }
 
-  if (props.LatestTrips) {
-    return (
-      <div className="kilimanjaro_part">
-        <h5>{props.Title}</h5>
-        <div className="kilimanjaro_works">
-          {allPlaces
-            .filter((place) => place.popularTrip)
-            .map((place, i) => (
-              <span key={"latest-trip" + i} className="kilimanjaro_works_img">
-                <Link to={"/trip/" + place.to} onClick={() => AtTheTop()}>
-                  <img src={place.img} alt="" />
-                </Link>
-              </span>
-            ))}
-        </div>
-      </div>
-    );
-  }
+  // if (props.LatestTrips) {
+  //   return (
+  //     <div className="kilimanjaro_part">
+  //       <h5>{props.Title}</h5>
+  //       <div className="kilimanjaro_works">
+  //         {allPlaces
+  //           .filter((place) => place.popularTrip)
+  //           .map((place, i) => (
+  //             <span key={"latest-trip" + i} className="kilimanjaro_works_img">
+  //               <Link to={"/trip/" + place.to} onClick={() => AtTheTop()}>
+  //                 <img src={place.img} alt="" />
+  //               </Link>
+  //             </span>
+  //           ))}
+  //       </div>
+  //     </div>
+  //   );
+  // }
   return null;
 };
 
