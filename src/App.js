@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,7 +9,7 @@ import { dataContext } from "./shared/context/data-context";
 import { ToastContainer } from "react-toastify";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import logo from "./shared/img/MakeYourTripPossible_logo.png";
-import MainFooterNavigation from "./shared/components/Footer/MainFooterNavigation";
+// import MainFooterNavigation from "./shared/components/Footer/MainFooterNavigation";
 import contactLinks from "./data/contact-links.json";
 import allPlaceData from "./data/all-places.json";
 import allBlogData from "./data/latest-blogs.json";
@@ -22,6 +22,11 @@ import StickySideBar from "./shared/components/UIElements/StickySideBar";
 import BookNow from "./shared/components/UIElements/BookNow";
 import Blog from "./places/pages/Blog";
 import Policy from "./other/Pages/Policy";
+import Loading from "./shared/components/UIElements/Loading";
+
+const MainFooterNavigation = React.lazy(() =>
+  import("./shared/components/Footer/MainFooterNavigation")
+);
 
 const App = () => {
   let routes = (
@@ -84,11 +89,13 @@ const App = () => {
       }}
     >
       <Router>
-        <MainNavigation logo={logo} />
-        <ToastContainer />
-        <StickySideBar whatsapp={contactLinks.cl_call} />
-        <main>{routes}</main>
-        <MainFooterNavigation />
+        <Suspense fallback={<Loading />}>
+          <MainNavigation logo={logo} />
+          <ToastContainer />
+          <StickySideBar whatsapp={contactLinks.cl_call} />
+          <main>{routes}</main>
+          <MainFooterNavigation />
+        </Suspense>
       </Router>
     </dataContext.Provider>
   );

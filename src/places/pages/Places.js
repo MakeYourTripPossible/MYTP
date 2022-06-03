@@ -24,10 +24,10 @@ const Places = (props) => {
   let bgUrl =
     categoryTitle === undefined
       ? pathname === "/blogs"
-        ? "/img/MakeYourTripPossible_blogs.png"
-        : "/img/MakeYourTripPossible_Mainbanner.png"
+        ? "/img/MakeYourTripPossible_blogs.webp"
+        : "/img/MakeYourTripPossible_Mainbanner.webp"
       : allPlaces.filter((data) => data.toCategory === categoryTitle)[0]
-          .categoryBannerImg;
+          .categoryBannerImgWeb;
   let defaultValue = {
     bannerUrl: bgUrl,
     to: "/",

@@ -2,6 +2,8 @@ import React from "react";
 import "./NotFound.css";
 import { Link } from "react-router-dom";
 const NotFound = () => {
+  let notFoundImgUrl = "/img/MakeYourTripPossible_not_found_banner.png";
+  let notFoundImgUrlWeb = "/img/MakeYourTripPossible_not_found_banner.webp";
   return (
     <>
       <div className="container notFound-space">
@@ -25,7 +27,11 @@ const NotFound = () => {
             </Link>
           </button>
         </div>
-        <img src="/img/MakeYourTripPossible_not_found_banner.png" alt="" />
+        <picture>
+          <source srcset={notFoundImgUrlWeb} type="image/webp" />
+          <source srcset={notFoundImgUrl} type="image/png" />
+          <img src={notFoundImgUrl} alt="Not Found" />
+        </picture>
       </div>
     </>
   );
