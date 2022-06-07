@@ -104,30 +104,45 @@
     "end": "Place",
     "details": [
       {
-        "description": "Valley is popularly known for sports, activities, and its handicrafts products including Tibetan handicraft dresses, Prayer wheels, Thangkas, stories and many more things. Gurudwara Manikaran Sahib,  Naina Bhagwati mandir, Manikaran hot water spring, Parvati river and many waterfalls make it a perfect destination. <br/> <br/> Solang valley is mainly popular for sports and adventure activities along with rural life. It offers many places for the nature lover who wants to break from busy city life.",
+        "description": "<h4>Kasol</h4> <b>Kasol Valley</b> is popularly known for sports, activities, and its<b> handicrafts</b> products including <br/><br/> dresses, <b>Prayer wheels</b>, Thangkas, stories and many more things.<br/><br/> Gurudwara <b>Manikaran Sahib,  Naina Bhagwati mandir</b>, Manikaran <b>hot water spring, Parvati river</b> and many waterfalls make it a perfect destination<br/><br/><h4>Kheerganga</h4> <b>Kheerganga</b> is a <b>village</b> in Himachal Pradesh located at the end of <b>Parvati valley</b>. This is the <b>temporary village</b> inhabited during summer and it is also the <b>last inhabited village</b> in this valley. <br/><br/> This destination is situated <b>at an elevation of 9500 feet</b>, which makes this place a paradise for trekkers. <b>Green lush vegetation</b> and <b>lofty mountain ranges</b> enhance the beauty of this destination.<br/><br/>",
         "itinerary": [
           {
             "day": "Day 0",
-            "title": "DELHI TO MANALI",
-            "brief": ["We depart from Delhi around 6 PM in an AC Vehicle."]
+            "title": "DELHI TO KASOL",
+            "brief": [
+              "Our journey will begin At 6 in the evening, from Delhi",
+              "Morning arrival at destination (Know the true value of time; snatch, seize, and enjoy every moment of it.)"
+            ]
           },
           {
             "day": "Day 1",
-            "title": "MANALI EXPLORATION",
+            "title": "CHALAL TREK - KASOL SIGHTSEEING - CAFE HOPPING",
             "brief": [
-              "Reach Manali by morning. Check in to the hotel, freshen up & have breakfast.",
-              "After relaxing, opt for local sightseeing.",
-              "In the Evening, Drive towards the magical street of Old Manali for Cafe Hopping.",
-              "Overnight stay at the hotel."
+              "Reach Kasol in the morning, Check-in to the hotel & Have a delicious Breakfast",
+              "Afterwards, Went out to visit Chalal and Gurudwara Manikaran Sahib",
+              "In the evening explore the local cafes and, Have some recreation and fun in Kasol",
+              "At night,  Have a delightful dinner and Night's stay in Kasol"
             ]
           },
           {
             "day": "Day 2",
-            "title": "MANALI- KASOL- MANIKARAN- DELHI",
+            "title": "TREK TO KHEERGANGA",
             "brief": [
-              "Enjoy your time near the river bed, have breakfast by 11 am",
-              "Head towards Kasol and Manikaran",
-              "After that head back to Delhi with never-ending memories"
+              "Awake in the morning with a wonderful view In front of your eye, have a tasty breakfast",
+              "Afterwards, drive toward Barshaini and start trekking for Kheerganga",
+              "It will take around 5-7 hours to get to the spring",
+              "Check-in to the campsites and head to the springs for stunning swimming",
+              "Spend the night under the faraway stars and destination encircled by mountains",
+              "Have a mouthwatering Dinner and Night's stay in Kheerganga"
+            ]
+          },
+          {
+            "day": "Day 3",
+            "title": "TIME TO  BACK TO HOME DESTINATION",
+            "brief": [
+              "Wake up early in the morning and be a viewer of the first ray of sun falling on the mighty Himalayas",
+              "After breakfast, back to Barshaini (the same trail). Move back to Kasol from Barshaini",
+              "Spend some time in Kasol, By evening depart to Delhi by 5 PM"
             ]
           }
         ],

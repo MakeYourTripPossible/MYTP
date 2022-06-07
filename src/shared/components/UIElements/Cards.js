@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import {
   AtTheTop,
@@ -9,13 +9,6 @@ import {
 import "./Cards.css";
 import Loading from "./Loading";
 const Cards = (props) => {
-  const [load, setLoad] = useState(true);
-  useEffect(() => {
-    setInterval(() => {
-      setLoad(false);
-    }, 1000);
-  }, []);
-
   if (props.TagCatagory) {
     return (
       // <div className="container mt-5 heading-style">
@@ -41,7 +34,7 @@ const Cards = (props) => {
                   onClick={() => AtTheTop()}
                 >
                   <div className="img-card">
-                    {load ? (
+                    {props.load ? (
                       <Loading />
                     ) : (
                       <>
@@ -122,7 +115,7 @@ const Cards = (props) => {
             >
               <div className="img-detail-card">
                 <Link to={"/trip/" + card.to} onClick={() => AtTheTop()}>
-                  {load ? (
+                  {props.load ? (
                     <Loading />
                   ) : (
                     <>

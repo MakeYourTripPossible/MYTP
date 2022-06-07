@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { dataContext } from "../../shared/context/data-context";
 import MainBanner from "../../shared/components/Banner/Mainbanner";
@@ -18,6 +18,12 @@ import "./Places.css";
 import VideoContent from "../../shared/components/UIElements/VideoContent";
 import PlaceBlog from "./PlaceBlog";
 const Places = (props) => {
+  const [load, setLoad] = useState(true);
+  useEffect(() => {
+    setInterval(() => {
+      setLoad(false);
+    }, 1000);
+  }, []);
   const { pathname } = props.location;
   let { tripTitle, categoryTitle } = useParams();
   const { allPlaces, allService } = useContext(dataContext);
@@ -53,6 +59,7 @@ const Places = (props) => {
         DetailTrip
         {...props}
         url={data.bannerUrl}
+        load={load}
         title={categoryTitle === undefined ? data.heading : categoryTrpTitle}
       />
       {tripTitle === undefined &&
@@ -65,6 +72,7 @@ const Places = (props) => {
               linkPath={"category"}
               // PackageGroup={"Category"}
               cards={allPlaces.filter((card) => card.topCategoryTrip)}
+              load={load}
             />
           </CommonSection>
         )}
@@ -80,6 +88,7 @@ const Places = (props) => {
                   ? card.toCategory === categoryTitle
                   : card.popularTrip
               )}
+              load={load}
             />
           </CommonSection>
         )}
